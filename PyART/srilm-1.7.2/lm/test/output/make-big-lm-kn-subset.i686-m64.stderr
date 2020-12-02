@@ -1,0 +1,1 @@
++ make-kn-counts no_max_order=1 max_per_file=10000000 order=3 kndiscount1=1 kndiscount2=1 kndiscount3=1 kndiscount4=1 kndiscount5=1 kndiscount6=1 kndiscount7=1 kndiscount8=1 kndiscount9=1 output=biglm.kndir/kncounts

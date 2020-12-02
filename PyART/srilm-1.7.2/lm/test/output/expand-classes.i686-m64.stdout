@@ -1,0 +1,4 @@
+file ../class-ngram/devtest.text: 2895 sentences, 9838 words, 21 OOVs
+0 zeroprobs, logprob= -21156.38 ppl= 46.16193 ppl1= 142.9143
+file ../class-ngram/devtest.text: 2895 sentences, 9838 words, 21 OOVs
+1 zeroprobs, logprob= -21150.62 ppl= 46.12774 ppl1= 142.7937

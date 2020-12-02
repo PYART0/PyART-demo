@@ -1,0 +1,38 @@
+a b
+	p( a | <s> ) 	= [6] 7.435501e-13 [ -12.12869 ]
+	p( b | a ...) 	= [10] 2.774598e-11 [ -10.5568 ]
+	p( </s> | b ...) 	= [1] 1.537588e-06 [ -5.81316 ]
+Lattice states: 0 6 10 1
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -28.49865 ppl= 3.159002e+09 ppl1= 1.775517e+14
+
+a c b
+	p( a | <s> ) 	= [6] 7.435501e-13 [ -12.12869 ]
+	p( c | a ...) 	= [8] 0.9988851 [ -0.0004844666 ]
+	p( b | c ...) 	= [9] 2.196644e-07 [ -6.65824 ]
+	p( </s> | b ...) 	= [1] 1.537588e-06 [ -5.81316 ]
+Lattice states: 0 6 8 9 1
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -24.60057 ppl= 1413005 ppl1= 1.585592e+08
+
+file test.input: 2 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -53.09922 ppl= 3.851265e+07 ppl1= 4.167205e+10
+a b
+	p( a | <s> ) 	= [10] 7.435501e-13 [ -12.12869 ]
+	p( b | a ...) 	= [20] 3.283445e-09 [ -8.48367 ]
+	p( </s> | b ...) 	= [1] 1.299303e-08 [ -7.88629 ]
+Lattice states: 0 10 20 1
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -28.49865 ppl= 3.159002e+09 ppl1= 1.775517e+14
+
+a c b
+	p( a | <s> ) 	= [10] 7.435501e-13 [ -12.12869 ]
+	p( c | a ...) 	= [14][16] 0.9988851 [ -0.0004844666 ]
+	p( b | c ...) 	= [19][19] 2.599497e-05 [ -4.585111 ]
+	p( </s> | b ...) 	= [1] 1.299303e-08 [ -7.88629 ]
+Lattice states: 0 10 16 19 1
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -24.60057 ppl= 1413005 ppl1= 1.585592e+08
+
+file test.input: 2 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -53.09922 ppl= 3.851265e+07 ppl1= 4.167205e+10

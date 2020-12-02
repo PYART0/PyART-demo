@@ -1,0 +1,4 @@
+file -: 200 sentences, 1405 words, 44 OOVs
+0 zeroprobs, logprob= -3386.689 ppl= 147.7623 ppl1= 307.8809
+file -: 200 sentences, 1405 words, 0 OOVs
+44 zeroprobs, logprob= -3198.515 ppl= 111.9481 ppl1= 223.9346

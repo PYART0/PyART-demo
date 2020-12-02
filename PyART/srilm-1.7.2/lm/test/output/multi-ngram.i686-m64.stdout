@@ -1,0 +1,22 @@
+i've got a bad feeling
+	p( i've | <s> ) 	= [2gram] 0.001205399 [ -2.918869 ]
+	p( got | i've ...) 	= [3gram] 0.55 [ -0.2596373 ]
+	p( a | got ...) 	= [3gram] 0.07692314 [ -1.113943 ]
+	p( bad | a ...) 	= [1gram] 6.165604e-05 [ -4.210024 ]
+	p( feeling | bad ...) 	= [1gram] 2.862693e-06 [ -5.543225 ]
+	p( </s> | feeling ...) 	= [1gram] 0.07845725 [ -1.105367 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.15107 ppl= 335.1025 ppl1= 1072.045
+
+file -: 1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.15107 ppl= 335.1025 ppl1= 1072.045
+i've_got_a bad feeling
+	p( i've_got_a | <s> ) 	= [2gram] 5.099775e-05 [ -4.292449 ]
+	p( bad | i've_got_a ...) 	= [1gram] 0.0009921433 [ -3.003426 ]
+	p( feeling | bad ...) 	= [1gram] 2.862693e-06 [ -5.543225 ]
+	p( </s> | feeling ...) 	= [1gram] 0.07845725 [ -1.105367 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -13.94447 ppl= 3062.786 ppl1= 44479.06
+
+file -: 1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -13.94447 ppl= 3062.786 ppl1= 44479.06

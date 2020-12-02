@@ -1,0 +1,1582 @@
+i was going to make some if you would tell me how to make them what do you what do you think
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( was | i ...) 	= [3gram] 0.02569644 [ -1.590127 ]
+	p( going | was ...) 	= [3gram] 0.06390561 [ -1.194461 ]
+	p( to | going ...) 	= [3gram] 0.7685951 [ -0.1143024 ]
+	p( make | to ...) 	= [3gram] 0.01432099 [ -1.844027 ]
+	p( some | make ...) 	= [3gram] 0.02286905 [ -1.640752 ]
+	p( if | some ...) 	= [2gram] 0.0003692189 [ -3.432716 ]
+	p( you | if ...) 	= [2gram] 0.2111829 [ -0.6753413 ]
+	p( would | you ...) 	= [3gram] 0.003780716 [ -2.422426 ]
+	p( tell | would ...) 	= [2gram] 0.001320423 [ -2.879287 ]
+	p( me | tell ...) 	= [2gram] 0.2095466 [ -0.6787194 ]
+	p( how | me ...) 	= [3gram] 0.01556485 [ -1.807855 ]
+	p( to | how ...) 	= [3gram] 0.3333333 [ -0.4771213 ]
+	p( make | to ...) 	= [3gram] 0.02480915 [ -1.605388 ]
+	p( them | make ...) 	= [3gram] 0.018711 [ -1.727903 ]
+	p( what | them ...) 	= [2gram] 0.00197542 [ -2.70434 ]
+	p( do | what ...) 	= [2gram] 0.06084413 [ -1.215781 ]
+	p( you | do ...) 	= [3gram] 0.8662552 [ -0.06235417 ]
+	p( what | you ...) 	= [3gram] 0.006208762 [ -2.206995 ]
+	p( do | what ...) 	= [3gram] 0.1283186 [ -0.8917105 ]
+	p( you | do ...) 	= [3gram] 0.8662552 [ -0.06235417 ]
+	p( think | you ...) 	= [3gram] 0.1478463 [ -0.8301895 ]
+	p( </s> | think ...) 	= [3gram] 0.07835216 [ -1.105949 ]
+1 sentences, 22 words, 0 OOVs
+0 zeroprobs, logprob= -32.48116 ppl= 25.83594 ppl1= 29.95134
+22 words, rank1= 0.2727272727272727 rank5= 0.5454545454545454 rank10= 0.7727272727272727
+23 words+sents, rank1wSent= 0.2608695652173913 rank5wSent= 0.5652173913043478 rank10wSent= 0.7826086956521739 qloss= 0.8725426351735814 absloss= 0.8296121794430802
+
+you don't you don't know at all huh all right
+	p( you | <s> ) 	= [2gram] 0.02404141 [ -1.61904 ]
+	p( don't | you ...) 	= [3gram] 0.02822377 [ -1.549385 ]
+	p( you | don't ...) 	= [3gram] 0.02507835 [ -1.600701 ]
+	p( don't | you ...) 	= [3gram] 0.07643318 [ -1.116718 ]
+	p( know | don't ...) 	= [3gram] 0.05642636 [ -1.248518 ]
+	p( at | know ...) 	= [3gram] 0.001146545 [ -2.940609 ]
+	p( all | at ...) 	= [3gram] 0.007313395 [ -2.135881 ]
+	p( huh | all ...) 	= [3gram] 0.00128118 [ -2.89239 ]
+	p( all | huh ...) 	= [2gram] 0.0004357325 [ -3.36078 ]
+	p( right | all ...) 	= [2gram] 0.06029662 [ -1.219707 ]
+	p( </s> | right ...) 	= [3gram] 0.3473227 [ -0.4592668 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -20.143 ppl= 67.79247 ppl1= 103.3474
+10 words, rank1= 0 rank5= 0.4 rank10= 0.5
+11 words+sents, rank1wSent= 0.09090909090909091 rank5wSent= 0.4545454545454545 rank10wSent= 0.5454545454545454 qloss= 0.9476936743860537 absloss= 0.9429091573640843
+
+no
+	p( no | <s> ) 	= [2gram] 0.01304256 [ -1.884637 ]
+	p( </s> | no ...) 	= [3gram] 0.1987539 [ -0.7016844 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.586321 ppl= 19.64087 ppl1= 385.7637
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8989105479528395 absloss= 0.8941017846875861
+
+beans right that's why i said beans
+	p( beans | <s> ) 	= [1gram] 1.123809e-06 [ -5.949307 ]
+	p( right | beans ...) 	= [1gram] 0.001342063 [ -2.872227 ]
+	p( that's | right ...) 	= [2gram] 0.01793721 [ -1.746245 ]
+	p( why | that's ...) 	= [3gram] 0.007014263 [ -2.154018 ]
+	p( i | why ...) 	= [3gram] 0.384393 [ -0.4152245 ]
+	p( said | i ...) 	= [3gram] 0.03585659 [ -1.445431 ]
+	p( beans | said ...) 	= [1gram] 3.424799e-06 [ -5.465365 ]
+	p( </s> | beans ...) 	= [2gram] 0.1818182 [ -0.7403627 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -20.78818 ppl= 396.7552 ppl1= 932.696
+7 words, rank1= 0.1428571428571428 rank5= 0.1428571428571428 rank10= 0.4285714285714285
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.5 qloss= 0.9304395812997128 absloss= 0.9214542639375182
+
+maybe that's it you know they they they're researching
+	p( maybe | <s> ) 	= [2gram] 0.0008370009 [ -3.077274 ]
+	p( that's | maybe ...) 	= [3gram] 0.03883497 [ -1.410777 ]
+	p( it | that's ...) 	= [3gram] 0.01595651 [ -1.797062 ]
+	p( you | it ...) 	= [3gram] 0.07729475 [ -1.11185 ]
+	p( know | you ...) 	= [3gram] 0.7950311 [ -0.09961591 ]
+	p( they | know ...) 	= [3gram] 0.02679279 [ -1.571982 ]
+	p( they | they ...) 	= [3gram] 0.06915379 [ -1.160184 ]
+	p( they're | they ...) 	= [3gram] 0.001659904 [ -2.779917 ]
+	p( researching | they're ...) 	= [2gram] 5.188691e-05 [ -4.284942 ]
+	p( </s> | researching ...) 	= [1gram] 0.05139158 [ -1.289108 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -18.58271 ppl= 72.1558 ppl1= 116.0769
+9 words, rank1= 0.1111111111111111 rank5= 0.3333333333333333 rank10= 0.5555555555555556
+10 words+sents, rank1wSent= 0.1 rank5wSent= 0.4 rank10wSent= 0.6 qloss= 0.9216261605589481 absloss= 0.8922995765045714
+
+uh they're researching how many foreign words a person uses when speaking to someone abroad
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( they're | uh ...) 	= [3gram] 0.004131094 [ -2.383935 ]
+	p( researching | they're ...) 	= [2gram] 4.899354e-05 [ -4.309861 ]
+	p( how | researching ...) 	= [1gram] 0.00120837 [ -2.9178 ]
+	p( many | how ...) 	= [2gram] 0.0658373 [ -1.181528 ]
+	p( foreign | many ...) 	= [2gram] 0.0001237216 [ -3.907555 ]
+	p( words | foreign ...) 	= [1gram] 1.548538e-05 [ -4.810078 ]
+	p( a | words ...) 	= [2gram] 0.007234474 [ -2.140593 ]
+	p( person | a ...) 	= [2gram] 0.002299318 [ -2.638401 ]
+	p( uses | person ...) 	= [2gram] 0.0002950351 [ -3.530126 ]
+	p( when | uses ...) 	= [1gram] 0.001516256 [ -2.819227 ]
+	p( speaking | when ...) 	= [1gram] 1.708131e-06 [ -5.767479 ]
+	p( to | speaking ...) 	= [2gram] 0.05265904 [ -1.278527 ]
+	p( someone | to ...) 	= [2gram] 0.0003420261 [ -3.465941 ]
+	p( abroad | someone ...) 	= [1gram] 1.288969e-06 [ -5.889758 ]
+	p( </s> | abroad ...) 	= [2gram] 0.1225878 [ -0.9115527 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -49.48245 ppl= 1237.807 ppl1= 1989.893
+15 words, rank1= 0 rank5= 0.1333333333333333 rank10= 0.2
+16 words+sents, rank1wSent= 0 rank5wSent= 0.1875 rank10wSent= 0.25 qloss= 0.9825816793354458 absloss= 0.9820119848439234
+
+uhhuh
+	p( uhhuh | <s> ) 	= [2gram] 0.1113373 [ -0.9533594 ]
+	p( </s> | uhhuh ...) 	= [3gram] 0.8521641 [ -0.06947678 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -1.022836 ppl= 3.24652 ppl1= 10.53989
+1 words, rank1= 0 rank5= 1 rank10= 1
+2 words+sents, rank1wSent= 0.5 rank5wSent= 1 rank10wSent= 1 qloss= 0.6370152698788479 absloss= 0.5182493313519827
+
+right
+	p( right | <s> ) 	= [2gram] 0.03372788 [ -1.472011 ]
+	p( </s> | right ...) 	= [3gram] 0.6267919 [ -0.2028766 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -1.674888 ppl= 6.877709 ppl1= 47.30288
+1 words, rank1= 0 rank5= 0 rank10= 1
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 1 qloss= 0.7324500218275334 absloss= 0.6697400911449112
+
+okay
+	p( okay | <s> ) 	= [2gram] 0.01281504 [ -1.89228 ]
+	p( </s> | okay ...) 	= [3gram] 0.3852251 [ -0.4142854 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.306565 ppl= 14.23255 ppl1= 202.5655
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8223388246901279 absloss= 0.8009799151138484
+
+okay
+	p( okay | <s> ) 	= [2gram] 0.01281504 [ -1.89228 ]
+	p( </s> | okay ...) 	= [3gram] 0.3852251 [ -0.4142854 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.306565 ppl= 14.23255 ppl1= 202.5655
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8223388246901279 absloss= 0.8009799151138484
+
+okay uh so you received a letter in which i said uh send me the recipe for beans and rice
+	p( okay | <s> ) 	= [2gram] 0.01281504 [ -1.89228 ]
+	p( uh | okay ...) 	= [3gram] 0.03519338 [ -1.453539 ]
+	p( so | uh ...) 	= [3gram] 0.01932889 [ -1.713793 ]
+	p( you | so ...) 	= [3gram] 0.05629633 [ -1.24952 ]
+	p( received | you ...) 	= [2gram] 2.971255e-06 [ -5.52706 ]
+	p( a | received ...) 	= [2gram] 0.11782 [ -0.928781 ]
+	p( letter | a ...) 	= [2gram] 0.0003218042 [ -3.492408 ]
+	p( in | letter ...) 	= [3gram] 0.03761179 [ -1.424676 ]
+	p( which | in ...) 	= [2gram] 0.001032866 [ -2.985956 ]
+	p( i | which ...) 	= [3gram] 0.2051282 [ -0.6879746 ]
+	p( said | i ...) 	= [2gram] 0.005034986 [ -2.298002 ]
+	p( uh | said ...) 	= [3gram] 0.01088271 [ -1.963263 ]
+	p( send | uh ...) 	= [2gram] 4.173506e-05 [ -4.379499 ]
+	p( me | send ...) 	= [2gram] 0.08552637 [ -1.0679 ]
+	p( the | me ...) 	= [2gram] 0.01130756 [ -1.946631 ]
+	p( recipe | the ...) 	= [2gram] 0.0001274935 [ -3.894512 ]
+	p( for | recipe ...) 	= [3gram] 0.07020855 [ -1.15361 ]
+	p( beans | for ...) 	= [1gram] 3.232345e-06 [ -5.490482 ]
+	p( and | beans ...) 	= [2gram] 0.4090909 [ -0.3881802 ]
+	p( rice | and ...) 	= [3gram] 0.1122281 [ -0.9498984 ]
+	p( </s> | rice ...) 	= [2gram] 0.1047763 [ -0.9797368 ]
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -45.8677 ppl= 152.8186 ppl1= 196.5102
+20 words, rank1= 0.15 rank5= 0.45 rank10= 0.45
+21 words+sents, rank1wSent= 0.1428571428571428 rank5wSent= 0.4761904761904762 rank10wSent= 0.4761904761904762 qloss= 0.9430499247087605 absloss= 0.9383438449186291
+
+yeah because uh yeah i would l- i would love to make it
+	p( yeah | <s> ) 	= [2gram] 0.1361426 [ -0.8660061 ]
+	p( because | yeah ...) 	= [3gram] 0.004536365 [ -2.343292 ]
+	p( uh | because ...) 	= [3gram] 0.02633486 [ -1.579469 ]
+	p( yeah | uh ...) 	= [2gram] 0.003983449 [ -2.399741 ]
+	p( i | yeah ...) 	= [3gram] 0.2121771 [ -0.6733015 ]
+	p( would | i ...) 	= [3gram] 0.0111343 [ -1.953337 ]
+	p( <unk> | would ...) 	= [OOV] 0 [ -inf ]
+	p( i | <unk> ...) 	= [1gram] 0.03658761 [ -1.436666 ]
+	p( would | i ...) 	= [2gram] 0.01846699 [ -1.733604 ]
+	p( love | would ...) 	= [3gram] 0.03106169 [ -1.507775 ]
+	p( to | love ...) 	= [3gram] 0.7710844 [ -0.1128981 ]
+	p( make | to ...) 	= [2gram] 0.005641716 [ -2.248589 ]
+	p( it | make ...) 	= [3gram] 0.1652807 [ -0.7817779 ]
+	p( </s> | it ...) 	= [3gram] 0.0593607 [ -1.226501 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -18.86296 ppl= 28.24858 ppl1= 37.31755
+13 words, rank1= 0.3076923076923077 rank5= 0.3846153846153846 rank10= 0.5384615384615384
+14 words+sents, rank1wSent= 0.2857142857142857 rank5wSent= 0.4285714285714285 rank10wSent= 0.5714285714285714 qloss= 0.8754146752897689 absloss= 0.8227291158636018
+
+i i think that uh
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( i | i ...) 	= [3gram] 0.06178799 [ -1.209096 ]
+	p( think | i ...) 	= [3gram] 0.1122788 [ -0.9497024 ]
+	p( that | think ...) 	= [3gram] 0.1156877 [ -0.936713 ]
+	p( uh | that ...) 	= [3gram] 0.1003121 [ -0.9986467 ]
+	p( </s> | uh ...) 	= [3gram] 0.06187298 [ -1.208499 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -6.613713 ppl= 12.65568 ppl1= 21.02532
+5 words, rank1= 0.6 rank5= 1 rank10= 1
+6 words+sents, rank1wSent= 0.5 rank5wSent= 1 rank10wSent= 1 qloss= 0.9169232108571785 absloss= 0.9165335966229278
+
+i think uh isabel um
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( think | i ...) 	= [3gram] 0.1286486 [ -0.8905948 ]
+	p( uh | think ...) 	= [3gram] 0.02784928 [ -1.555186 ]
+	p( isabel | uh ...) 	= [1gram] 4.189497e-10 [ -9.377838 ]
+	p( um | isabel ...) 	= [1gram] 0.003940895 [ -2.404405 ]
+	p( </s> | um ...) 	= [2gram] 0.1697003 [ -0.7703173 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -16.3094 ppl= 522.6764 ppl1= 1827.593
+5 words, rank1= 0.2 rank5= 0.4 rank10= 0.6
+6 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 0.5 rank10wSent= 0.6666666666666666 qloss= 0.9390181767063587 absloss= 0.9368336527482498
+
+ye- yes yes
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( yes | <unk> ...) 	= [1gram] 0.001322193 [ -2.878705 ]
+	p( yes | yes ...) 	= [2gram] 0.05069884 [ -1.295002 ]
+	p( </s> | yes ...) 	= [3gram] 0.5046729 [ -0.29699 ]
+1 sentences, 3 words, 1 OOVs
+0 zeroprobs, logprob= -4.470697 ppl= 30.91949 ppl1= 171.9288
+3 words, rank1= 0 rank5= 0.3333333333333333 rank10= 0.3333333333333333
+4 words+sents, rank1wSent= 0.25 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.7320995461156825 absloss= 0.6108265144348448
+
+is is uh is for isabel
+	p( is | <s> ) 	= [2gram] 0.003656799 [ -2.436899 ]
+	p( is | is ...) 	= [3gram] 0.03111114 [ -1.507084 ]
+	p( uh | is ...) 	= [3gram] 0.06676564 [ -1.175447 ]
+	p( is | uh ...) 	= [3gram] 0.06265056 [ -1.203075 ]
+	p( for | is ...) 	= [2gram] 0.003175197 [ -2.498229 ]
+	p( isabel | for ...) 	= [1gram] 1.054102e-10 [ -9.977118 ]
+	p( </s> | isabel ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -19.91083 ppl= 698.882 ppl1= 2081.954
+6 words, rank1= 0.1666666666666667 rank5= 0.5 rank10= 0.5
+7 words+sents, rank1wSent= 0.2857142857142857 rank5wSent= 0.5714285714285714 rank10wSent= 0.5714285714285714 qloss= 0.9655797266368317 absloss= 0.9650779823685062
+
+that's what you call that's the nickname for isabel
+	p( that's | <s> ) 	= [2gram] 0.01641088 [ -1.784868 ]
+	p( what | that's ...) 	= [3gram] 0.04456552 [ -1.351001 ]
+	p( you | what ...) 	= [3gram] 0.03464416 [ -1.46037 ]
+	p( call | you ...) 	= [3gram] 0.0270968 [ -1.567082 ]
+	p( that's | call ...) 	= [2gram] 0.0006148801 [ -3.21121 ]
+	p( the | that's ...) 	= [2gram] 0.05762979 [ -1.239353 ]
+	p( nickname | the ...) 	= [1gram] 4.383605e-08 [ -7.358169 ]
+	p( for | nickname ...) 	= [2gram] 0.3495934 [ -0.4564368 ]
+	p( isabel | for ...) 	= [1gram] 1.116589e-10 [ -9.952106 ]
+	p( </s> | isabel ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -29.49357 ppl= 889.9324 ppl1= 1892.62
+9 words, rank1= 0.1111111111111111 rank5= 0.3333333333333333 rank10= 0.4444444444444444
+10 words+sents, rank1wSent= 0.2 rank5wSent= 0.4 rank10wSent= 0.5 qloss= 0.9444771087949833 absloss= 0.9392349766222179
+
+uhhuh um
+	p( uhhuh | <s> ) 	= [2gram] 0.1113373 [ -0.9533594 ]
+	p( um | uhhuh ...) 	= [3gram] 0.001496243 [ -2.824998 ]
+	p( </s> | um ...) 	= [3gram] 0.4259259 [ -0.3706659 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -4.149023 ppl= 24.15504 ppl1= 118.7166
+2 words, rank1= 0 rank5= 0.5 rank10= 0.5
+3 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 0.6666666666666666 rank10wSent= 0.6666666666666666 qloss= 0.8398992443836616 absloss= 0.8204135146051686
+
+i think she she like uh cooked some spices first
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( think | i ...) 	= [3gram] 0.1286486 [ -0.8905948 ]
+	p( she | think ...) 	= [3gram] 0.004290511 [ -2.367491 ]
+	p( she | she ...) 	= [2gram] 0.01831879 [ -1.737103 ]
+	p( like | she ...) 	= [2gram] 0.001873553 [ -2.727334 ]
+	p( uh | like ...) 	= [2gram] 0.03221314 [ -1.491967 ]
+	p( cooked | uh ...) 	= [2gram] 1.691175e-05 [ -4.771811 ]
+	p( some | cooked ...) 	= [2gram] 0.01899048 [ -1.721464 ]
+	p( spices | some ...) 	= [1gram] 1.715553e-06 [ -5.765596 ]
+	p( first | spices ...) 	= [1gram] 0.0003692468 [ -3.432683 ]
+	p( </s> | first ...) 	= [2gram] 0.0452736 [ -1.344155 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -27.56126 ppl= 320.3087 ppl1= 570.3291
+10 words, rank1= 0.1 rank5= 0.2 rank10= 0.4
+11 words+sents, rank1wSent= 0.09090909090909091 rank5wSent= 0.2727272727272727 rank10wSent= 0.4545454545454545 qloss= 0.9735143581640894 absloss= 0.9728313151989512
+
+uh like cumin and uh what are the english words for all of those
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( like | uh ...) 	= [3gram] 0.002616357 [ -2.582303 ]
+	p( <unk> | like ...) 	= [OOV] 0 [ -inf ]
+	p( and | <unk> ...) 	= [1gram] 0.03200332 [ -1.494805 ]
+	p( uh | and ...) 	= [2gram] 0.08536032 [ -1.068744 ]
+	p( what | uh ...) 	= [3gram] 0.006650617 [ -2.177138 ]
+	p( are | what ...) 	= [3gram] 0.053398 [ -1.272475 ]
+	p( the | are ...) 	= [3gram] 0.08831919 [ -1.053945 ]
+	p( english | the ...) 	= [2gram] 0.0001534323 [ -3.814083 ]
+	p( words | english ...) 	= [2gram] 0.001791677 [ -2.74674 ]
+	p( for | words ...) 	= [2gram] 0.01313439 [ -1.88159 ]
+	p( all | for ...) 	= [2gram] 0.004663555 [ -2.331283 ]
+	p( of | all ...) 	= [3gram] 0.2790698 [ -0.5542872 ]
+	p( those | of ...) 	= [3gram] 0.04714645 [ -1.326551 ]
+	p( </s> | those ...) 	= [3gram] 0.07021275 [ -1.153584 ]
+1 sentences, 14 words, 1 OOVs
+0 zeroprobs, logprob= -24.98761 ppl= 60.92977 ppl1= 83.58418
+14 words, rank1= 0.07142857142857142 rank5= 0.2857142857142857 rank10= 0.5
+15 words+sents, rank1wSent= 0.06666666666666667 rank5wSent= 0.3333333333333333 rank10wSent= 0.5333333333333333 qloss= 0.9193135718578033 absloss= 0.8857315892049742
+
+uh jeez i don- uh parsley an- an- and then uh uh s- i think she boils the beans
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( jeez | uh ...) 	= [2gram] 3.454942e-05 [ -4.461559 ]
+	p( i | jeez ...) 	= [2gram] 0.1056911 [ -0.9759617 ]
+	p( <unk> | i ...) 	= [OOV] 0 [ -inf ]
+	p( uh | <unk> ...) 	= [1gram] 0.02110498 [ -1.675615 ]
+	p( <unk> | uh ...) 	= [OOV] 0 [ -inf ]
+	p( <unk> | <unk> ...) 	= [OOV] 0 [ -inf ]
+	p( <unk> | <unk> ...) 	= [OOV] 0 [ -inf ]
+	p( and | <unk> ...) 	= [1gram] 0.03200332 [ -1.494805 ]
+	p( then | and ...) 	= [2gram] 0.04687421 [ -1.329066 ]
+	p( uh | then ...) 	= [3gram] 0.05011479 [ -1.300034 ]
+	p( uh | uh ...) 	= [3gram] 0.01512541 [ -1.820293 ]
+	p( <unk> | uh ...) 	= [OOV] 0 [ -inf ]
+	p( i | <unk> ...) 	= [1gram] 0.03658761 [ -1.436666 ]
+	p( think | i ...) 	= [2gram] 0.1097489 [ -0.9595999 ]
+	p( she | think ...) 	= [3gram] 0.004290511 [ -2.367491 ]
+	p( boils | she ...) 	= [1gram] 2.41472e-07 [ -6.617133 ]
+	p( the | boils ...) 	= [1gram] 0.003290365 [ -2.482756 ]
+	p( beans | the ...) 	= [2gram] 3.831828e-06 [ -5.416594 ]
+	p( </s> | beans ...) 	= [2gram] 0.1818182 [ -0.7403627 ]
+1 sentences, 19 words, 5 OOVs
+0 zeroprobs, logprob= -34.60802 ppl= 202.8623 ppl1= 296.4842
+19 words, rank1= 0.05263157894736842 rank5= 0.3157894736842105 rank10= 0.4736842105263158
+20 words+sents, rank1wSent= 0.05 rank5wSent= 0.35 rank10wSent= 0.5 qloss= 0.8304375455883736 absloss= 0.718190286676432
+
+with with with she like fries the the spices in butter or or or like um
+	p( with | <s> ) 	= [2gram] 0.00139771 [ -2.854583 ]
+	p( with | with ...) 	= [3gram] 0.03197673 [ -1.495166 ]
+	p( with | with ...) 	= [3gram] 0.02192184 [ -1.659123 ]
+	p( she | with ...) 	= [2gram] 0.000319309 [ -3.495789 ]
+	p( like | she ...) 	= [2gram] 0.00143984 [ -2.841686 ]
+	p( fries | like ...) 	= [1gram] 2.690411e-06 [ -5.570181 ]
+	p( the | fries ...) 	= [2gram] 0.01456639 [ -1.836648 ]
+	p( the | the ...) 	= [2gram] 0.03138087 [ -1.503335 ]
+	p( spices | the ...) 	= [2gram] 3.557872e-05 [ -4.44881 ]
+	p( in | spices ...) 	= [2gram] 0.03178125 [ -1.497829 ]
+	p( butter | in ...) 	= [2gram] 9.258555e-06 [ -5.033457 ]
+	p( or | butter ...) 	= [2gram] 0.008963939 [ -2.047501 ]
+	p( or | or ...) 	= [2gram] 0.03159825 [ -1.500337 ]
+	p( or | or ...) 	= [3gram] 0.0661322 [ -1.179587 ]
+	p( like | or ...) 	= [3gram] 0.005926497 [ -2.227202 ]
+	p( um | like ...) 	= [2gram] 0.003850925 [ -2.414435 ]
+	p( </s> | um ...) 	= [3gram] 0.04058449 [ -1.39164 ]
+1 sentences, 16 words, 0 OOVs
+0 zeroprobs, logprob= -42.99731 ppl= 338.2622 ppl1= 486.7789
+16 words, rank1= 0.125 rank5= 0.1875 rank10= 0.4375
+17 words+sents, rank1wSent= 0.1176470588235294 rank5wSent= 0.2352941176470588 rank10wSent= 0.4705882352941176 qloss= 0.9830052350017424 absloss= 0.9828301307595559
+
+heats them in butter and then puts the beans in
+	p( heats | <s> ) 	= [2gram] 1.420434e-06 [ -5.847579 ]
+	p( them | heats ...) 	= [1gram] 0.001284784 [ -2.89117 ]
+	p( in | them ...) 	= [2gram] 0.04239153 [ -1.372721 ]
+	p( butter | in ...) 	= [2gram] 6.093446e-06 [ -5.215137 ]
+	p( and | butter ...) 	= [2gram] 0.4358974 [ -0.3606157 ]
+	p( then | and ...) 	= [2gram] 0.04163395 [ -1.380552 ]
+	p( puts | then ...) 	= [1gram] 8.497809e-06 [ -5.070693 ]
+	p( the | puts ...) 	= [2gram] 0.05219717 [ -1.282353 ]
+	p( beans | the ...) 	= [2gram] 3.831828e-06 [ -5.416594 ]
+	p( in | beans ...) 	= [1gram] 0.003156136 [ -2.500844 ]
+	p( </s> | in ...) 	= [2gram] 0.01851216 [ -1.732543 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -33.0708 ppl= 1014.931 ppl1= 2028.057
+10 words, rank1= 0.1 rank5= 0.3 rank10= 0.4
+11 words+sents, rank1wSent= 0.09090909090909091 rank5wSent= 0.2727272727272727 rank10wSent= 0.4545454545454545 qloss= 0.9537690723475988 absloss= 0.9459006378151656
+
+and then i think the rice is added late- i i don't know i really don't know how it's done you're going
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( then | and ...) 	= [3gram] 0.05404444 [ -1.267249 ]
+	p( i | then ...) 	= [3gram] 0.09709749 [ -1.012792 ]
+	p( think | i ...) 	= [3gram] 0.07065876 [ -1.150834 ]
+	p( the | think ...) 	= [3gram] 0.05148609 [ -1.28831 ]
+	p( rice | the ...) 	= [2gram] 8.618666e-05 [ -4.06456 ]
+	p( is | rice ...) 	= [1gram] 0.002485258 [ -2.604629 ]
+	p( added | is ...) 	= [2gram] 4.957344e-05 [ -4.304751 ]
+	p( <unk> | added ...) 	= [OOV] 0 [ -inf ]
+	p( i | <unk> ...) 	= [1gram] 0.03658761 [ -1.436666 ]
+	p( i | i ...) 	= [2gram] 0.06191615 [ -1.208196 ]
+	p( don't | i ...) 	= [3gram] 0.09333509 [ -1.029955 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( i | know ...) 	= [3gram] 0.1414474 [ -0.8494051 ]
+	p( really | i ...) 	= [3gram] 0.01517571 [ -1.818851 ]
+	p( don't | really ...) 	= [3gram] 0.165813 [ -0.7803813 ]
+	p( know | don't ...) 	= [3gram] 0.205379 [ -0.687444 ]
+	p( how | know ...) 	= [3gram] 0.06985299 [ -1.155815 ]
+	p( it's | how ...) 	= [3gram] 0.00268631 [ -2.570844 ]
+	p( done | it's ...) 	= [2gram] 0.001413667 [ -2.849653 ]
+	p( you're | done ...) 	= [2gram] 0.00013561 [ -3.867708 ]
+	p( going | you're ...) 	= [2gram] 0.1061274 [ -0.9741723 ]
+	p( </s> | going ...) 	= [3gram] 0.006829846 [ -2.165589 ]
+1 sentences, 22 words, 1 OOVs
+0 zeroprobs, logprob= -38.5478 ppl= 56.51615 ppl1= 68.4872
+22 words, rank1= 0.2727272727272727 rank5= 0.5909090909090909 rank10= 0.6818181818181818
+23 words+sents, rank1wSent= 0.2608695652173913 rank5wSent= 0.6086956521739131 rank10wSent= 0.6956521739130435 qloss= 0.907470057972439 absloss= 0.8827077798768935
+
+yeah you're going to have to ask
+	p( yeah | <s> ) 	= [2gram] 0.1361426 [ -0.8660061 ]
+	p( you're | yeah ...) 	= [3gram] 0.0008953361 [ -3.048014 ]
+	p( going | you're ...) 	= [3gram] 0.0188059 [ -1.725706 ]
+	p( to | going ...) 	= [3gram] 0.8960739 [ -0.04765617 ]
+	p( have | to ...) 	= [3gram] 0.08559669 [ -1.067543 ]
+	p( to | have ...) 	= [3gram] 0.1456753 [ -0.8366142 ]
+	p( ask | to ...) 	= [3gram] 0.003229973 [ -2.490801 ]
+	p( </s> | ask ...) 	= [3gram] 0.01132398 [ -1.946001 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -12.02834 ppl= 31.88179 ppl1= 52.27987
+7 words, rank1= 0.2857142857142857 rank5= 0.5714285714285714 rank10= 0.7142857142857143
+8 words+sents, rank1wSent= 0.25 rank5wSent= 0.5 rank10wSent= 0.625 qloss= 0.8842395915779715 absloss= 0.8377820501527913
+
+you're going to have to ask but you're going to get me all confused by throwing corn in i don't know anything about that
+	p( you're | <s> ) 	= [2gram] 0.0009426401 [ -3.025654 ]
+	p( going | you're ...) 	= [3gram] 0.0214494 [ -1.668585 ]
+	p( to | going ...) 	= [3gram] 0.8960739 [ -0.04765617 ]
+	p( have | to ...) 	= [3gram] 0.08559669 [ -1.067543 ]
+	p( to | have ...) 	= [3gram] 0.1456753 [ -0.8366142 ]
+	p( ask | to ...) 	= [3gram] 0.003229973 [ -2.490801 ]
+	p( but | ask ...) 	= [1gram] 0.002147598 [ -2.668047 ]
+	p( you're | but ...) 	= [2gram] 0.00213306 [ -2.670997 ]
+	p( going | you're ...) 	= [3gram] 0.06936302 [ -1.158872 ]
+	p( to | going ...) 	= [3gram] 0.8960739 [ -0.04765617 ]
+	p( get | to ...) 	= [3gram] 0.05135799 [ -1.289392 ]
+	p( me | get ...) 	= [3gram] 0.006585442 [ -2.181415 ]
+	p( all | me ...) 	= [2gram] 0.002884765 [ -2.53989 ]
+	p( confused | all ...) 	= [2gram] 2.489644e-05 [ -4.603863 ]
+	p( by | confused ...) 	= [2gram] 0.01747966 [ -1.757467 ]
+	p( throwing | by ...) 	= [2gram] 0.001126577 [ -2.948239 ]
+	p( corn | throwing ...) 	= [1gram] 5.423661e-06 [ -5.265707 ]
+	p( in | corn ...) 	= [2gram] 0.02170341 [ -1.663472 ]
+	p( i | in ...) 	= [2gram] 0.003389924 [ -2.46981 ]
+	p( don't | i ...) 	= [3gram] 0.1328125 [ -0.876761 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( anything | know ...) 	= [3gram] 0.004450462 [ -2.351595 ]
+	p( about | anything ...) 	= [3gram] 0.5633802 [ -0.2491984 ]
+	p( that | about ...) 	= [3gram] 0.08620689 [ -1.064458 ]
+	p( </s> | that ...) 	= [3gram] 0.259552 [ -0.5857756 ]
+1 sentences, 24 words, 0 OOVs
+0 zeroprobs, logprob= -45.89049 ppl= 68.48879 ppl1= 81.67773
+24 words, rank1= 0.1666666666666667 rank5= 0.4166666666666667 rank10= 0.5
+25 words+sents, rank1wSent= 0.2 rank5wSent= 0.44 rank10wSent= 0.52 qloss= 0.8904930717467771 absloss= 0.8516344668771124
+
+oh yes yes
+	p( oh | <s> ) 	= [2gram] 0.05978456 [ -1.223411 ]
+	p( yes | oh ...) 	= [3gram] 0.02188391 [ -1.659875 ]
+	p( yes | yes ...) 	= [3gram] 0.07356954 [ -1.133302 ]
+	p( </s> | yes ...) 	= [3gram] 0.5046729 [ -0.29699 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -4.313578 ppl= 11.97828 ppl1= 27.40686
+3 words, rank1= 0 rank5= 0.6666666666666666 rank10= 1
+4 words+sents, rank1wSent= 0.25 rank5wSent= 0.75 rank10wSent= 1 qloss= 0.8579537404640422 absloss= 0.8350222701641407
+
+now that's very interesting very interesting concept there
+	p( now | <s> ) 	= [2gram] 0.002515063 [ -2.599451 ]
+	p( that's | now ...) 	= [3gram] 0.06623583 [ -1.178907 ]
+	p( very | that's ...) 	= [2gram] 0.006019211 [ -2.22046 ]
+	p( interesting | very ...) 	= [3gram] 0.0448889 [ -1.347861 ]
+	p( very | interesting ...) 	= [2gram] 0.0006885707 [ -3.162051 ]
+	p( interesting | very ...) 	= [2gram] 0.01751854 [ -1.756502 ]
+	p( concept | interesting ...) 	= [2gram] 0.006798509 [ -2.167586 ]
+	p( there | concept ...) 	= [1gram] 0.001107044 [ -2.955835 ]
+	p( </s> | there ...) 	= [2gram] 0.1374581 [ -0.8618295 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -18.25048 ppl= 106.6183 ppl1= 191.1219
+8 words, rank1= 0 rank5= 0.25 rank10= 0.375
+9 words+sents, rank1wSent= 0.1111111111111111 rank5wSent= 0.3333333333333333 rank10wSent= 0.4444444444444444 qloss= 0.9694921174018644 absloss= 0.9685300209102166
+
+i never heard them called that before
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( never | i ...) 	= [3gram] 0.005405401 [ -2.267172 ]
+	p( heard | never ...) 	= [3gram] 0.03237412 [ -1.489802 ]
+	p( them | heard ...) 	= [3gram] 0.01120351 [ -1.950646 ]
+	p( called | them ...) 	= [2gram] 3.129008e-05 [ -4.504593 ]
+	p( that | called ...) 	= [2gram] 0.004321335 [ -2.364382 ]
+	p( before | that ...) 	= [2gram] 0.0009365525 [ -3.028468 ]
+	p( </s> | before ...) 	= [3gram] 0.3220339 [ -0.4920984 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -17.40822 ppl= 149.9779 ppl1= 306.8232
+7 words, rank1= 0 rank5= 0.1428571428571428 rank10= 0.4285714285714285
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.5 qloss= 0.9524301354401861 absloss= 0.9468543683765959
+
+gee it is confining to have to speak english isn't it
+	p( gee | <s> ) 	= [2gram] 0.0002072187 [ -3.683571 ]
+	p( it | gee ...) 	= [2gram] 0.004737196 [ -2.324479 ]
+	p( is | it ...) 	= [2gram] 0.05511045 [ -1.258766 ]
+	p( confining | is ...) 	= [1gram] 1.242165e-07 [ -6.905821 ]
+	p( to | confining ...) 	= [1gram] 0.01513096 [ -1.820134 ]
+	p( have | to ...) 	= [2gram] 0.03848682 [ -1.414688 ]
+	p( to | have ...) 	= [3gram] 0.1456753 [ -0.8366142 ]
+	p( speak | to ...) 	= [3gram] 0.0002267717 [ -3.644411 ]
+	p( english | speak ...) 	= [3gram] 0.010857 [ -1.96429 ]
+	p( isn't | english ...) 	= [1gram] 0.0001334838 [ -3.874571 ]
+	p( it | isn't ...) 	= [2gram] 0.2542886 [ -0.5946731 ]
+	p( </s> | it ...) 	= [3gram] 0.6071429 [ -0.2167091 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -28.53873 ppl= 238.9061 ppl1= 393.0336
+11 words, rank1= 0.09090909090909091 rank5= 0.2727272727272727 rank10= 0.4545454545454545
+12 words+sents, rank1wSent= 0.1666666666666667 rank5wSent= 0.3333333333333333 rank10wSent= 0.5 qloss= 0.9217465620090841 absloss= 0.9056669372133737
+
+yes yes
+	p( yes | <s> ) 	= [2gram] 0.01174238 [ -1.930244 ]
+	p( yes | yes ...) 	= [3gram] 0.05640141 [ -1.24871 ]
+	p( </s> | yes ...) 	= [3gram] 0.5046729 [ -0.29699 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -3.475944 ppl= 14.40947 ppl1= 54.69807
+2 words, rank1= 0 rank5= 0.5 rank10= 0.5
+3 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 0.6666666666666666 rank10wSent= 0.6666666666666666 qloss= 0.8391226278480386 absloss= 0.80906110091223
+
+yes oh it
+	p( yes | <s> ) 	= [2gram] 0.01174238 [ -1.930244 ]
+	p( oh | yes ...) 	= [3gram] 0.005882352 [ -2.230449 ]
+	p( it | oh ...) 	= [2gram] 0.007196285 [ -2.142892 ]
+	p( </s> | it ...) 	= [2gram] 0.02736974 [ -1.562729 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -7.866314 ppl= 92.59307 ppl1= 418.8945
+3 words, rank1= 0 rank5= 0 rank10= 0
+4 words+sents, rank1wSent= 0 rank5wSent= 0.25 rank10wSent= 0.25 qloss= 0.9869893450550855 absloss= 0.9869523118042853
+
+yes um see whenever i try to speak a foreign language
+	p( yes | <s> ) 	= [2gram] 0.01174238 [ -1.930244 ]
+	p( um | yes ...) 	= [3gram] 0.003806231 [ -2.419505 ]
+	p( see | um ...) 	= [2gram] 0.0005385011 [ -3.268813 ]
+	p( whenever | see ...) 	= [2gram] 3.731945e-05 [ -4.428065 ]
+	p( i | whenever ...) 	= [2gram] 0.2579365 [ -0.5884872 ]
+	p( try | i ...) 	= [2gram] 0.001821761 [ -2.739509 ]
+	p( to | try ...) 	= [3gram] 0.7677903 [ -0.1147574 ]
+	p( speak | to ...) 	= [3gram] 0.00113118 [ -2.946468 ]
+	p( a | speak ...) 	= [2gram] 0.001359496 [ -2.866622 ]
+	p( foreign | a ...) 	= [2gram] 0.0003347109 [ -3.47533 ]
+	p( language | foreign ...) 	= [3gram] 0.04578824 [ -1.339246 ]
+	p( </s> | language ...) 	= [2gram] 0.1792453 [ -0.7465523 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -26.8636 ppl= 173.234 ppl1= 276.7868
+11 words, rank1= 0.1818181818181818 rank5= 0.1818181818181818 rank10= 0.2727272727272727
+12 words+sents, rank1wSent= 0.25 rank5wSent= 0.25 rank10wSent= 0.3333333333333333 qloss= 0.9195720958866638 absloss= 0.8940390120885566
+
+the well i i say it in the letter the the the spanish is just so just totally unconscious and
+	p( the | <s> ) 	= [2gram] 0.007224203 [ -2.14121 ]
+	p( well | the ...) 	= [2gram] 0.0003321144 [ -3.478712 ]
+	p( i | well ...) 	= [3gram] 0.2285715 [ -0.640978 ]
+	p( i | i ...) 	= [3gram] 0.09093248 [ -1.041281 ]
+	p( say | i ...) 	= [3gram] 0.001106196 [ -2.956168 ]
+	p( it | say ...) 	= [3gram] 0.1111111 [ -0.9542425 ]
+	p( in | it ...) 	= [2gram] 0.01185636 [ -1.926049 ]
+	p( the | in ...) 	= [3gram] 0.25 [ -0.60206 ]
+	p( letter | the ...) 	= [3gram] 0.0001181566 [ -3.927542 ]
+	p( the | letter ...) 	= [1gram] 0.01015142 [ -1.993473 ]
+	p( the | the ...) 	= [2gram] 0.03138087 [ -1.503335 ]
+	p( the | the ...) 	= [3gram] 0.05937833 [ -1.226372 ]
+	p( spanish | the ...) 	= [2gram] 0.0001123887 [ -3.949277 ]
+	p( is | spanish ...) 	= [2gram] 0.02457557 [ -1.609496 ]
+	p( just | is ...) 	= [2gram] 0.02235183 [ -1.650687 ]
+	p( so | just ...) 	= [3gram] 0.03832119 [ -1.416561 ]
+	p( just | so ...) 	= [2gram] 0.0006236846 [ -3.205035 ]
+	p( totally | just ...) 	= [2gram] 0.001201815 [ -2.920162 ]
+	p( unconscious | totally ...) 	= [1gram] 6.810059e-07 [ -6.166849 ]
+	p( and | unconscious ...) 	= [2gram] 0.1165311 [ -0.933558 ]
+	p( </s> | and ...) 	= [2gram] 0.03740934 [ -1.42702 ]
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -45.67007 ppl= 149.5427 ppl1= 192.0894
+20 words, rank1= 0.2 rank5= 0.4 rank10= 0.5
+21 words+sents, rank1wSent= 0.1904761904761905 rank5wSent= 0.4285714285714285 rank10wSent= 0.5238095238095238 qloss= 0.9529687755951907 absloss= 0.9503195079681371
+
+yeah and i'm rattling along in russian and then i come to the word but
+	p( yeah | <s> ) 	= [2gram] 0.1361426 [ -0.8660061 ]
+	p( and | yeah ...) 	= [3gram] 0.02885965 [ -1.539709 ]
+	p( i'm | and ...) 	= [3gram] 0.007955455 [ -2.099335 ]
+	p( rattling | i'm ...) 	= [1gram] 3.101021e-08 [ -7.508495 ]
+	p( along | rattling ...) 	= [1gram] 0.0001050089 [ -3.978774 ]
+	p( in | along ...) 	= [2gram] 0.01553399 [ -1.808717 ]
+	p( russian | in ...) 	= [2gram] 1.052391e-05 [ -4.977823 ]
+	p( and | russian ...) 	= [1gram] 0.01788804 [ -1.747437 ]
+	p( then | and ...) 	= [2gram] 0.04687421 [ -1.329066 ]
+	p( i | then ...) 	= [3gram] 0.09709749 [ -1.012792 ]
+	p( come | i ...) 	= [3gram] 0.001261232 [ -2.899205 ]
+	p( to | come ...) 	= [3gram] 0.09890107 [ -1.004799 ]
+	p( the | to ...) 	= [3gram] 0.1243523 [ -0.9053461 ]
+	p( word | the ...) 	= [2gram] 0.000463545 [ -3.333908 ]
+	p( but | word ...) 	= [3gram] 0.01726442 [ -1.762848 ]
+	p( </s> | but ...) 	= [2gram] 0.07005997 [ -1.15453 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -37.92879 ppl= 234.7196 ppl1= 337.7428
+15 words, rank1= 0.2 rank5= 0.3333333333333333 rank10= 0.6
+16 words+sents, rank1wSent= 0.1875 rank5wSent= 0.375 rank10wSent= 0.625 qloss= 0.9597047567435502 absloss= 0.9585769048783948
+
+and and then i always say it in spanish and then it's followed by a rain of spanish
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( and | and ...) 	= [3gram] 0.03460063 [ -1.460916 ]
+	p( then | and ...) 	= [3gram] 0.02204992 [ -1.656593 ]
+	p( i | then ...) 	= [3gram] 0.09709749 [ -1.012792 ]
+	p( always | i ...) 	= [2gram] 0.003463548 [ -2.460479 ]
+	p( say | always ...) 	= [3gram] 0.01256632 [ -1.900792 ]
+	p( it | say ...) 	= [2gram] 0.03152123 [ -1.501397 ]
+	p( in | it ...) 	= [2gram] 0.01185636 [ -1.926049 ]
+	p( spanish | in ...) 	= [2gram] 2.398849e-05 [ -4.619997 ]
+	p( and | spanish ...) 	= [2gram] 0.03739969 [ -1.427132 ]
+	p( then | and ...) 	= [2gram] 0.0336902 [ -1.472496 ]
+	p( it's | then ...) 	= [3gram] 0.009814157 [ -2.008147 ]
+	p( followed | it's ...) 	= [1gram] 2.276144e-06 [ -5.6428 ]
+	p( by | followed ...) 	= [2gram] 0.1027149 [ -0.9883667 ]
+	p( a | by ...) 	= [2gram] 0.04413545 [ -1.355212 ]
+	p( rain | a ...) 	= [2gram] 1.440474e-05 [ -4.841495 ]
+	p( of | rain ...) 	= [2gram] 0.007742389 [ -2.111125 ]
+	p( spanish | of ...) 	= [2gram] 1.427855e-05 [ -4.845316 ]
+	p( </s> | spanish ...) 	= [2gram] 0.1008555 [ -0.9963003 ]
+1 sentences, 18 words, 0 OOVs
+0 zeroprobs, logprob= -43.32638 ppl= 190.6934 ppl1= 255.2825
+18 words, rank1= 0.05555555555555555 rank5= 0.3333333333333333 rank10= 0.5
+19 words+sents, rank1wSent= 0.1052631578947368 rank5wSent= 0.3684210526315789 rank10wSent= 0.5263157894736842 qloss= 0.9675184795054759 absloss= 0.9668850830522279
+
+and
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( </s> | and ...) 	= [3gram] 0.01423833 [ -1.846541 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.945515 ppl= 29.70007 ppl1= 882.0943
+1 words, rank1= 0 rank5= 1 rank10= 1
+2 words+sents, rank1wSent= 0 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.9536309889125882 absloss= 0.9530704849142736
+
+oh very very good
+	p( oh | <s> ) 	= [2gram] 0.05978456 [ -1.223411 ]
+	p( very | oh ...) 	= [3gram] 0.0007475874 [ -3.126338 ]
+	p( very | very ...) 	= [3gram] 0.08776069 [ -1.0567 ]
+	p( good | very ...) 	= [3gram] 0.051282 [ -1.290035 ]
+	p( </s> | good ...) 	= [3gram] 0.1709402 [ -0.7671559 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -7.46364 ppl= 31.09768 ppl1= 73.43616
+4 words, rank1= 0.25 rank5= 0.75 rank10= 0.75
+5 words+sents, rank1wSent= 0.4 rank5wSent= 0.8 rank10wSent= 0.8 qloss= 0.927587955132641 absloss= 0.9258969998703576
+
+uhhuh that's russian
+	p( uhhuh | <s> ) 	= [2gram] 0.1113373 [ -0.9533594 ]
+	p( that's | uhhuh ...) 	= [3gram] 0.00390483 [ -2.408398 ]
+	p( russian | that's ...) 	= [1gram] 6.97247e-07 [ -6.156613 ]
+	p( </s> | russian ...) 	= [2gram] 0.0289379 [ -1.538533 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -11.0569 ppl= 581.0666 ppl1= 4848.803
+3 words, rank1= 0 rank5= 0.3333333333333333 rank10= 0.6666666666666666
+4 words+sents, rank1wSent= 0 rank5wSent= 0.25 rank10wSent= 0.75 qloss= 0.9649983469636487 absloss= 0.963954825084922
+
+yes
+	p( yes | <s> ) 	= [2gram] 0.01174238 [ -1.930244 ]
+	p( </s> | yes ...) 	= [3gram] 0.4314879 [ -0.3650314 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.295275 ppl= 14.04875 ppl1= 197.3674
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8061820982977491 absloss= 0.7783848677553213
+
+he'd been gone too long huh huh
+	p( he'd | <s> ) 	= [2gram] 3.250492e-05 [ -4.488051 ]
+	p( been | he'd ...) 	= [2gram] 0.08484846 [ -1.071356 ]
+	p( gone | been ...) 	= [2gram] 0.001089264 [ -2.962867 ]
+	p( too | gone ...) 	= [2gram] 0.001669729 [ -2.777354 ]
+	p( long | too ...) 	= [2gram] 0.01337619 [ -1.873668 ]
+	p( huh | long ...) 	= [2gram] 5.123363e-05 [ -4.290445 ]
+	p( huh | huh ...) 	= [2gram] 0.001814258 [ -2.741301 ]
+	p( </s> | huh ...) 	= [3gram] 0.2106258 [ -0.6764885 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -20.88153 ppl= 407.5597 ppl1= 961.7799
+7 words, rank1= 0 rank5= 0.1428571428571428 rank10= 0.2857142857142857
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.375 qloss= 0.9633751786165579 absloss= 0.9608115759796674
+
+uhhuh
+	p( uhhuh | <s> ) 	= [2gram] 0.1113373 [ -0.9533594 ]
+	p( </s> | uhhuh ...) 	= [3gram] 0.8521641 [ -0.06947678 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -1.022836 ppl= 3.24652 ppl1= 10.53989
+1 words, rank1= 0 rank5= 1 rank10= 1
+2 words+sents, rank1wSent= 0.5 rank5wSent= 1 rank10wSent= 1 qloss= 0.6370152698788479 absloss= 0.5182493313519827
+
+but y- but but you know all
+	p( but | <s> ) 	= [2gram] 0.02621109 [ -1.581515 ]
+	p( <unk> | but ...) 	= [OOV] 0 [ -inf ]
+	p( but | <unk> ...) 	= [1gram] 0.00851736 [ -2.069695 ]
+	p( but | but ...) 	= [2gram] 0.01254091 [ -1.901671 ]
+	p( you | but ...) 	= [3gram] 0.03812317 [ -1.418811 ]
+	p( know | you ...) 	= [3gram] 0.5940515 [ -0.2261759 ]
+	p( all | know ...) 	= [3gram] 0.004890046 [ -2.310687 ]
+	p( </s> | all ...) 	= [2gram] 0.01611831 [ -1.792681 ]
+1 sentences, 7 words, 1 OOVs
+0 zeroprobs, logprob= -11.30124 ppl= 41.15875 ppl1= 76.47848
+7 words, rank1= 0.1428571428571428 rank5= 0.1428571428571428 rank10= 0.4285714285714285
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.125 rank10wSent= 0.5 qloss= 0.8627460777827919 absloss= 0.787443452841659
+
+although it is a russian word
+	p( although | <s> ) 	= [2gram] 0.0003250485 [ -3.488052 ]
+	p( it | although ...) 	= [3gram] 0.05028819 [ -1.298534 ]
+	p( is | it ...) 	= [3gram] 0.08783062 [ -1.056354 ]
+	p( a | is ...) 	= [3gram] 0.06597935 [ -1.180592 ]
+	p( russian | a ...) 	= [1gram] 4.146421e-06 [ -5.382327 ]
+	p( word | russian ...) 	= [1gram] 4.832333e-05 [ -4.315843 ]
+	p( </s> | word ...) 	= [2gram] 0.1956522 [ -0.7085153 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -17.43022 ppl= 309.0516 ppl1= 803.593
+6 words, rank1= 0 rank5= 0.5 rank10= 0.5
+7 words+sents, rank1wSent= 0.1428571428571428 rank5wSent= 0.5714285714285714 rank10wSent= 0.5714285714285714 qloss= 0.9451092563245931 absloss= 0.9428388758932709
+
+it it doesn't sound it's not a name word it's not
+	p( it | <s> ) 	= [2gram] 0.01006026 [ -1.997391 ]
+	p( it | it ...) 	= [3gram] 0.04402264 [ -1.356324 ]
+	p( doesn't | it ...) 	= [3gram] 0.01681849 [ -1.774213 ]
+	p( sound | doesn't ...) 	= [3gram] 0.01520271 [ -1.818079 ]
+	p( it's | sound ...) 	= [1gram] 0.001207975 [ -2.917942 ]
+	p( not | it's ...) 	= [2gram] 0.06462031 [ -1.189631 ]
+	p( a | not ...) 	= [3gram] 0.1042566 [ -0.9818963 ]
+	p( name | a ...) 	= [3gram] 0.001358876 [ -2.86682 ]
+	p( word | name ...) 	= [1gram] 1.846447e-05 [ -4.733663 ]
+	p( it's | word ...) 	= [2gram] 0.004403591 [ -2.356193 ]
+	p( not | it's ...) 	= [2gram] 0.06462031 [ -1.189631 ]
+	p( </s> | not ...) 	= [3gram] 0.03578039 [ -1.446355 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -24.62814 ppl= 112.8093 ppl1= 173.3491
+11 words, rank1= 0.09090909090909091 rank5= 0.3636363636363636 rank10= 0.3636363636363636
+12 words+sents, rank1wSent= 0.08333333333333333 rank5wSent= 0.3333333333333333 rank10wSent= 0.4166666666666667 qloss= 0.9703236513482499 absloss= 0.9698024469447692
+
+i mean i never ever heard of a russian named that
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( mean | i ...) 	= [3gram] 0.09363818 [ -1.028547 ]
+	p( i | mean ...) 	= [3gram] 0.1456654 [ -0.8366436 ]
+	p( never | i ...) 	= [3gram] 0.009541992 [ -2.020361 ]
+	p( ever | never ...) 	= [3gram] 0.005318928 [ -2.274176 ]
+	p( heard | ever ...) 	= [2gram] 0.03174496 [ -1.498325 ]
+	p( of | heard ...) 	= [3gram] 0.8135593 [ -0.08961078 ]
+	p( a | of ...) 	= [3gram] 0.04947001 [ -1.305658 ]
+	p( russian | a ...) 	= [1gram] 5.581946e-06 [ -5.253214 ]
+	p( named | russian ...) 	= [1gram] 1.032999e-05 [ -4.9859 ]
+	p( that | named ...) 	= [1gram] 0.01202425 [ -1.919942 ]
+	p( </s> | that ...) 	= [2gram] 0.06995568 [ -1.155177 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -23.67861 ppl= 94.01942 ppl1= 142.1023
+11 words, rank1= 0.1818181818181818 rank5= 0.4545454545454545 rank10= 0.5454545454545454
+12 words+sents, rank1wSent= 0.25 rank5wSent= 0.5 rank10wSent= 0.5833333333333334 qloss= 0.919387390374513 absloss= 0.8933505359861199
+
+you know for example you know uh prince is a famous character in russian history
+	p( you | <s> ) 	= [2gram] 0.02404141 [ -1.61904 ]
+	p( know | you ...) 	= [3gram] 0.665033 [ -0.1771568 ]
+	p( for | know ...) 	= [3gram] 0.007349708 [ -2.13373 ]
+	p( example | for ...) 	= [3gram] 0.01009325 [ -1.995969 ]
+	p( you | example ...) 	= [3gram] 0.03613008 [ -1.442131 ]
+	p( know | you ...) 	= [3gram] 0.8 [ -0.09691001 ]
+	p( uh | know ...) 	= [3gram] 0.01253257 [ -1.90196 ]
+	p( prince | uh ...) 	= [2gram] 4.871868e-06 [ -5.312304 ]
+	p( is | prince ...) 	= [2gram] 0.03178125 [ -1.497829 ]
+	p( a | is ...) 	= [2gram] 0.07284739 [ -1.137586 ]
+	p( famous | a ...) 	= [2gram] 3.797517e-06 [ -5.4205 ]
+	p( character | famous ...) 	= [1gram] 1.284197e-05 [ -4.891368 ]
+	p( in | character ...) 	= [2gram] 0.01869834 [ -1.728197 ]
+	p( russian | in ...) 	= [2gram] 4.459026e-06 [ -5.35076 ]
+	p( history | russian ...) 	= [2gram] 0.008323655 [ -2.079686 ]
+	p( </s> | history ...) 	= [2gram] 0.122905 [ -0.9104304 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -37.69556 ppl= 226.9721 ppl1= 325.8646
+15 words, rank1= 0.1333333333333333 rank5= 0.2 rank10= 0.4
+16 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.4375 qloss= 0.9181089010710587 absloss= 0.8868898965151673
+
+um
+	p( um | <s> ) 	= [2gram] 0.01432247 [ -1.843982 ]
+	p( </s> | um ...) 	= [3gram] 0.3818439 [ -0.4181141 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.262096 ppl= 13.52222 ppl1= 182.8505
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8227019811892626 absloss= 0.8019167927379454
+
+right right well like makes it an adjective
+	p( right | <s> ) 	= [2gram] 0.03372788 [ -1.472011 ]
+	p( right | right ...) 	= [3gram] 0.06697982 [ -1.174056 ]
+	p( well | right ...) 	= [3gram] 0.03951364 [ -1.403253 ]
+	p( like | well ...) 	= [2gram] 0.003158922 [ -2.500461 ]
+	p( makes | like ...) 	= [2gram] 8.062767e-06 [ -5.093516 ]
+	p( it | makes ...) 	= [2gram] 0.2092238 [ -0.6793888 ]
+	p( an | it ...) 	= [2gram] 9.630192e-05 [ -4.016365 ]
+	p( <unk> | an ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 8 words, 1 OOVs
+0 zeroprobs, logprob= -17.45203 ppl= 151.8809 ppl1= 311.2767
+8 words, rank1= 0.125 rank5= 0.375 rank10= 0.5
+9 words+sents, rank1wSent= 0.2222222222222222 rank5wSent= 0.4444444444444444 rank10wSent= 0.5555555555555556 qloss= 0.8942598990367792 absloss= 0.8411329721538292
+
+so um so so that's that's very common and there was a very famous
+	p( so | <s> ) 	= [2gram] 0.02428522 [ -1.614658 ]
+	p( um | so ...) 	= [3gram] 0.01321734 [ -1.878856 ]
+	p( so | um ...) 	= [3gram] 0.009266548 [ -2.033082 ]
+	p( so | so ...) 	= [2gram] 0.006118735 [ -2.213338 ]
+	p( that's | so ...) 	= [3gram] 0.05095538 [ -1.29281 ]
+	p( that's | that's ...) 	= [3gram] 0.1024668 [ -0.9894168 ]
+	p( very | that's ...) 	= [3gram] 0.01108646 [ -1.955207 ]
+	p( common | very ...) 	= [2gram] 0.0002553156 [ -3.592923 ]
+	p( and | common ...) 	= [2gram] 0.02616267 [ -1.582318 ]
+	p( there | and ...) 	= [2gram] 0.004913522 [ -2.308607 ]
+	p( was | there ...) 	= [3gram] 0.2131474 [ -0.67132 ]
+	p( a | was ...) 	= [3gram] 0.3008299 [ -0.521679 ]
+	p( very | a ...) 	= [3gram] 0.01887683 [ -1.724071 ]
+	p( famous | very ...) 	= [2gram] 5.563401e-05 [ -4.25466 ]
+	p( </s> | famous ...) 	= [2gram] 0.05657897 [ -1.247345 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -27.88029 ppl= 72.22475 ppl1= 98.05039
+14 words, rank1= 0.2142857142857143 rank5= 0.2857142857142857 rank10= 0.4285714285714285
+15 words+sents, rank1wSent= 0.2 rank5wSent= 0.3333333333333333 rank10wSent= 0.4666666666666667 qloss= 0.9479054035069148 absloss= 0.9441188858968129
+
+russian critic of russian literature named that too when i was in graduate school doing russian um
+	p( russian | <s> ) 	= [2gram] 1.420434e-06 [ -5.847579 ]
+	p( critic | russian ...) 	= [1gram] 8.754208e-07 [ -6.057783 ]
+	p( of | critic ...) 	= [1gram] 0.01113146 [ -1.953448 ]
+	p( russian | of ...) 	= [2gram] 6.720634e-06 [ -5.17259 ]
+	p( literature | russian ...) 	= [1gram] 4.377112e-06 [ -5.358812 ]
+	p( named | literature ...) 	= [1gram] 1.085253e-05 [ -4.964469 ]
+	p( that | named ...) 	= [1gram] 0.01202425 [ -1.919942 ]
+	p( too | that ...) 	= [2gram] 0.003952565 [ -2.403121 ]
+	p( when | too ...) 	= [2gram] 0.001380351 [ -2.86001 ]
+	p( i | when ...) 	= [3gram] 0.2682036 [ -0.5715354 ]
+	p( was | i ...) 	= [3gram] 0.3277972 [ -0.4843948 ]
+	p( in | was ...) 	= [3gram] 0.08528173 [ -1.069144 ]
+	p( graduate | in ...) 	= [3gram] 0.003383662 [ -2.470613 ]
+	p( school | graduate ...) 	= [3gram] 0.9705882 [ -0.01296498 ]
+	p( doing | school ...) 	= [2gram] 9.253555e-05 [ -4.033691 ]
+	p( russian | doing ...) 	= [1gram] 2.451813e-06 [ -5.610513 ]
+	p( um | russian ...) 	= [1gram] 0.002202737 [ -2.657037 ]
+	p( </s> | um ...) 	= [2gram] 0.1697003 [ -0.7703173 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -54.21797 ppl= 1028.275 ppl1= 1546.294
+17 words, rank1= 0.2352941176470588 rank5= 0.2352941176470588 rank10= 0.2352941176470588
+18 words+sents, rank1wSent= 0.2777777777777778 rank5wSent= 0.2777777777777778 rank10wSent= 0.2777777777777778 qloss= 0.926350921580573 absloss= 0.8969019267988158
+
+but uh yeah you would not have a name like
+	p( but | <s> ) 	= [2gram] 0.02621109 [ -1.581515 ]
+	p( uh | but ...) 	= [3gram] 0.2015191 [ -0.6956837 ]
+	p( yeah | uh ...) 	= [3gram] 0.02619371 [ -1.581803 ]
+	p( you | yeah ...) 	= [3gram] 0.01660516 [ -1.779757 ]
+	p( would | you ...) 	= [3gram] 0.01503758 [ -1.822822 ]
+	p( not | would ...) 	= [3gram] 0.006571826 [ -2.182314 ]
+	p( have | not ...) 	= [3gram] 0.2086331 [ -0.6806168 ]
+	p( a | have ...) 	= [3gram] 0.1099291 [ -0.9588874 ]
+	p( name | a ...) 	= [2gram] 0.0001424778 [ -3.846253 ]
+	p( like | name ...) 	= [1gram] 0.001489065 [ -2.827086 ]
+	p( </s> | like ...) 	= [2gram] 0.02466528 [ -1.607914 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -19.56465 ppl= 60.06268 ppl1= 90.46179
+10 words, rank1= 0.2 rank5= 0.3 rank10= 0.5
+11 words+sents, rank1wSent= 0.1818181818181818 rank5wSent= 0.2727272727272727 rank10wSent= 0.5454545454545454 qloss= 0.9450712302765043 absloss= 0.9420911366666554
+
+in in russian a last name like that it does you know i- it just
+	p( in | <s> ) 	= [2gram] 0.004359713 [ -2.360542 ]
+	p( in | in ...) 	= [3gram] 0.04193851 [ -1.377387 ]
+	p( russian | in ...) 	= [2gram] 1.046773e-05 [ -4.980147 ]
+	p( a | russian ...) 	= [1gram] 0.01203128 [ -1.919688 ]
+	p( last | a ...) 	= [2gram] 0.000130974 [ -3.882815 ]
+	p( name | last ...) 	= [2gram] 0.002945336 [ -2.530865 ]
+	p( like | name ...) 	= [1gram] 0.001434518 [ -2.843294 ]
+	p( that | like ...) 	= [2gram] 0.1506874 [ -0.8219231 ]
+	p( it | that ...) 	= [3gram] 0.008646395 [ -2.063165 ]
+	p( does | it ...) 	= [3gram] 0.01490946 [ -1.826538 ]
+	p( you | does ...) 	= [3gram] 0.006736495 [ -2.171566 ]
+	p( know | you ...) 	= [3gram] 0.8181818 [ -0.08715018 ]
+	p( <unk> | know ...) 	= [OOV] 0 [ -inf ]
+	p( it | <unk> ...) 	= [1gram] 0.0165401 [ -1.781462 ]
+	p( just | it ...) 	= [2gram] 0.02062381 [ -1.685631 ]
+	p( </s> | just ...) 	= [3gram] 0.0312213 [ -1.505549 ]
+1 sentences, 15 words, 1 OOVs
+0 zeroprobs, logprob= -31.83772 ppl= 132.5912 ppl1= 187.9849
+15 words, rank1= 0.1333333333333333 rank5= 0.2 rank10= 0.3333333333333333
+16 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.375 qloss= 0.9163542743872423 absloss= 0.8668501520058046
+
+it i don't know it's got to have s k y on it or
+	p( it | <s> ) 	= [2gram] 0.01006026 [ -1.997391 ]
+	p( i | it ...) 	= [3gram] 0.004846531 [ -2.314569 ]
+	p( don't | i ...) 	= [3gram] 0.1152115 [ -0.9385041 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( it's | know ...) 	= [3gram] 0.02496129 [ -1.602733 ]
+	p( got | it's ...) 	= [3gram] 0.007423897 [ -2.129368 ]
+	p( to | got ...) 	= [3gram] 0.256 [ -0.59176 ]
+	p( have | to ...) 	= [3gram] 0.09593785 [ -1.01801 ]
+	p( s | have ...) 	= [1gram] 2.839702e-05 [ -4.546727 ]
+	p( k | s ...) 	= [1gram] 1.469882e-05 [ -4.832717 ]
+	p( y | k ...) 	= [1gram] 7.388617e-06 [ -5.131437 ]
+	p( on | y ...) 	= [1gram] 0.001602722 [ -2.795142 ]
+	p( it | on ...) 	= [2gram] 0.0524897 [ -1.279926 ]
+	p( or | it ...) 	= [3gram] 0.01792115 [ -1.746634 ]
+	p( </s> | or ...) 	= [3gram] 0.07142857 [ -1.146128 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -32.43207 ppl= 145.2572 ppl1= 207.2889
+14 words, rank1= 0.1428571428571428 rank5= 0.3571428571428572 rank10= 0.5
+15 words+sents, rank1wSent= 0.1333333333333333 rank5wSent= 0.4 rank10wSent= 0.5333333333333333 qloss= 0.9345158491690659 absloss= 0.9271048858118406
+
+one of the other russian suffixes and it doesn't have one
+	p( one | <s> ) 	= [2gram] 0.0009548301 [ -3.020074 ]
+	p( of | one ...) 	= [3gram] 0.4170213 [ -0.3798418 ]
+	p( the | of ...) 	= [3gram] 0.4848484 [ -0.314394 ]
+	p( other | the ...) 	= [3gram] 0.01675846 [ -1.775766 ]
+	p( russian | other ...) 	= [1gram] 2.230825e-06 [ -5.651535 ]
+	p( <unk> | russian ...) 	= [OOV] 0 [ -inf ]
+	p( and | <unk> ...) 	= [1gram] 0.03200332 [ -1.494805 ]
+	p( it | and ...) 	= [2gram] 0.02823807 [ -1.549165 ]
+	p( doesn't | it ...) 	= [3gram] 0.02149047 [ -1.667754 ]
+	p( have | doesn't ...) 	= [3gram] 0.06081083 [ -1.216019 ]
+	p( one | have ...) 	= [3gram] 0.006623446 [ -2.178916 ]
+	p( </s> | one ...) 	= [3gram] 0.08168324 [ -1.087867 ]
+1 sentences, 11 words, 1 OOVs
+0 zeroprobs, logprob= -20.33614 ppl= 70.58943 ppl1= 108.0472
+11 words, rank1= 0.1818181818181818 rank5= 0.3636363636363636 rank10= 0.6363636363636364
+12 words+sents, rank1wSent= 0.1666666666666667 rank5wSent= 0.4166666666666667 rank10wSent= 0.6666666666666666 qloss= 0.8718321091494707 absloss= 0.8207971166185652
+
+well um
+	p( well | <s> ) 	= [2gram] 0.04186624 [ -1.378136 ]
+	p( um | well ...) 	= [3gram] 0.009219728 [ -2.035282 ]
+	p( </s> | um ...) 	= [3gram] 0.06748466 [ -1.170795 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -4.584213 ppl= 33.73424 ppl1= 195.9325
+2 words, rank1= 0 rank5= 0 rank10= 0.5
+3 words+sents, rank1wSent= 0 rank5wSent= 0.3333333333333333 rank10wSent= 0.6666666666666666 qloss= 0.9607723831465119 absloss= 0.960476458741503
+
+they um
+	p( they | <s> ) 	= [2gram] 0.007191708 [ -2.143168 ]
+	p( um | they ...) 	= [3gram] 0.002272915 [ -2.643417 ]
+	p( </s> | um ...) 	= [2gram] 0.1141346 [ -0.9425826 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -5.729167 ppl= 81.23113 ppl1= 732.1225
+2 words, rank1= 0 rank5= 0 rank10= 0
+3 words+sents, rank1wSent= 0 rank5wSent= 0.3333333333333333 rank10wSent= 0.3333333333333333 qloss= 0.960188369674873 absloss= 0.9588002529604879
+
+huh i don't know uh you know there's this glut of um slavs
+	p( huh | <s> ) 	= [2gram] 0.006285631 [ -2.201651 ]
+	p( i | huh ...) 	= [3gram] 0.02456366 [ -1.609707 ]
+	p( don't | i ...) 	= [3gram] 0.1875 [ -0.7269987 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( uh | know ...) 	= [3gram] 0.01547986 [ -1.810233 ]
+	p( you | uh ...) 	= [3gram] 0.03378376 [ -1.471292 ]
+	p( know | you ...) 	= [3gram] 0.8067967 [ -0.09323587 ]
+	p( there's | know ...) 	= [3gram] 0.007876784 [ -2.103651 ]
+	p( this | there's ...) 	= [3gram] 0.009099445 [ -2.040985 ]
+	p( glut | this ...) 	= [1gram] 5.602472e-07 [ -6.25162 ]
+	p( of | glut ...) 	= [2gram] 0.3677634 [ -0.4344315 ]
+	p( um | of ...) 	= [2gram] 0.002268443 [ -2.644272 ]
+	p( <unk> | um ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -22.86207 ppl= 57.36155 ppl1= 80.38456
+13 words, rank1= 0.3076923076923077 rank5= 0.4615384615384616 rank10= 0.4615384615384616
+14 words+sents, rank1wSent= 0.3571428571428572 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8481529055858296 absloss= 0.7875710154583278
+
+ukrainians and russians all over the united states now
+	p( ukrainians | <s> ) 	= [1gram] 3.882115e-11 [ -10.41093 ]
+	p( and | ukrainians ...) 	= [1gram] 0.03200332 [ -1.494805 ]
+	p( russians | and ...) 	= [1gram] 1.433653e-06 [ -5.843556 ]
+	p( all | russians ...) 	= [1gram] 0.002476362 [ -2.606186 ]
+	p( over | all ...) 	= [2gram] 0.02504361 [ -1.601303 ]
+	p( the | over ...) 	= [3gram] 0.4982579 [ -0.3025458 ]
+	p( united | the ...) 	= [3gram] 0.01675977 [ -1.775732 ]
+	p( states | united ...) 	= [3gram] 0.9469388 [ -0.0236781 ]
+	p( now | states ...) 	= [3gram] 0.007984617 [ -2.097746 ]
+	p( </s> | now ...) 	= [3gram] 0.2106258 [ -0.6764885 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -26.83297 ppl= 482.2777 ppl1= 958.1672
+9 words, rank1= 0.2222222222222222 rank5= 0.3333333333333333 rank10= 0.4444444444444444
+10 words+sents, rank1wSent= 0.3 rank5wSent= 0.4 rank10wSent= 0.5 qloss= 0.878130755833713 absloss= 0.8259908429958378
+
+oh i don't know i t-
+	p( oh | <s> ) 	= [2gram] 0.05978456 [ -1.223411 ]
+	p( i | oh ...) 	= [3gram] 0.07224421 [ -1.141197 ]
+	p( don't | i ...) 	= [3gram] 0.093496 [ -1.029207 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( i | know ...) 	= [3gram] 0.1414474 [ -0.8494051 ]
+	p( <unk> | i ...) 	= [OOV] 0 [ -inf ]
+	p( </s> | <unk> ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 6 words, 1 OOVs
+0 zeroprobs, logprob= -5.717214 ppl= 8.971582 ppl1= 13.91371
+6 words, rank1= 0.3333333333333333 rank5= 0.8333333333333334 rank10= 0.8333333333333334
+7 words+sents, rank1wSent= 0.4285714285714285 rank5wSent= 0.8571428571428571 rank10wSent= 0.8571428571428571 qloss= 0.7994659392507124 absloss= 0.7314914803442555
+
+no you uh are we talking about
+	p( no | <s> ) 	= [2gram] 0.01304256 [ -1.884637 ]
+	p( you | no ...) 	= [3gram] 0.01557632 [ -1.807535 ]
+	p( uh | you ...) 	= [2gram] 0.00267867 [ -2.572081 ]
+	p( are | uh ...) 	= [3gram] 0.02735565 [ -1.562953 ]
+	p( we | are ...) 	= [3gram] 0.01578207 [ -1.801836 ]
+	p( talking | we ...) 	= [3gram] 0.02718279 [ -1.565706 ]
+	p( about | talking ...) 	= [3gram] 0.574722 [ -0.2405422 ]
+	p( </s> | about ...) 	= [3gram] 0.08682645 [ -1.061348 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -12.49664 ppl= 36.48209 ppl1= 60.98654
+7 words, rank1= 0.1428571428571428 rank5= 0.1428571428571428 rank10= 0.5714285714285714
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.25 rank10wSent= 0.625 qloss= 0.9228805061062492 absloss= 0.904604190152262
+
+i don't know
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( don't | i ...) 	= [3gram] 0.1114345 [ -0.9529803 ]
+	p( know | don't ...) 	= [3gram] 0.4354927 [ -0.3610191 ]
+	p( </s> | know ...) 	= [3gram] 0.07914091 [ -1.101599 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -3.726654 ppl= 8.544046 ppl1= 17.46699
+3 words, rank1= 0.3333333333333333 rank5= 1 rank10= 1
+4 words+sents, rank1wSent= 0.25 rank5wSent= 1 rank10wSent= 1 qloss= 0.8457050160068911 absloss= 0.8312682327035358
+
+hey i think we're supposed to be speech speaking english
+	p( hey | <s> ) 	= [2gram] 0.0002600388 [ -3.584962 ]
+	p( i | hey ...) 	= [3gram] 0.140625 [ -0.8519375 ]
+	p( think | i ...) 	= [2gram] 0.09209487 [ -1.035765 ]
+	p( we're | think ...) 	= [3gram] 0.009517132 [ -2.021494 ]
+	p( supposed | we're ...) 	= [3gram] 0.03149531 [ -1.501754 ]
+	p( to | supposed ...) 	= [3gram] 0.9818182 [ -0.00796893 ]
+	p( be | to ...) 	= [3gram] 0.3862974 [ -0.4130782 ]
+	p( speech | be ...) 	= [1gram] 9.649826e-06 [ -5.015481 ]
+	p( speaking | speech ...) 	= [1gram] 1.925506e-05 [ -4.715455 ]
+	p( english | speaking ...) 	= [1gram] 1.401662e-05 [ -4.853357 ]
+	p( </s> | english ...) 	= [2gram] 0.1190476 [ -0.9242793 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -24.92553 ppl= 184.4834 ppl1= 310.8516
+10 words, rank1= 0.4 rank5= 0.4 rank10= 0.5
+11 words+sents, rank1wSent= 0.3636363636363636 rank5wSent= 0.4545454545454545 rank10wSent= 0.5454545454545454 qloss= 0.8859667258769093 absloss= 0.8398910455254044
+
+chili and beans and rice
+	p( chili | <s> ) 	= [2gram] 4.93826e-06 [ -5.306426 ]
+	p( and | chili ...) 	= [2gram] 0.0959383 [ -1.018008 ]
+	p( beans | and ...) 	= [2gram] 2.159779e-05 [ -4.665591 ]
+	p( and | beans ...) 	= [3gram] 0.351043 [ -0.4546397 ]
+	p( rice | and ...) 	= [3gram] 0.1122281 [ -0.9498984 ]
+	p( </s> | rice ...) 	= [2gram] 0.1047763 [ -0.9797368 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -13.3743 ppl= 169.4533 ppl1= 472.9987
+5 words, rank1= 0.4 rank5= 0.6 rank10= 0.6
+6 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 0.6666666666666666 rank10wSent= 0.6666666666666666 qloss= 0.8970306641960493 absloss= 0.8893312930729661
+
+huh
+	p( huh | <s> ) 	= [2gram] 0.006285631 [ -2.201651 ]
+	p( </s> | huh ...) 	= [3gram] 0.7563024 [ -0.1213045 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.322956 ppl= 14.50367 ppl1= 210.3563
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.7234834988238128 absloss= 0.618705963169596
+
+well they shouldn't talk to us then listen to us
+	p( well | <s> ) 	= [2gram] 0.04186624 [ -1.378136 ]
+	p( they | well ...) 	= [3gram] 0.02154502 [ -1.666653 ]
+	p( shouldn't | they ...) 	= [2gram] 0.0007074736 [ -3.15029 ]
+	p( talk | shouldn't ...) 	= [2gram] 0.003898847 [ -2.409064 ]
+	p( to | talk ...) 	= [2gram] 0.2278003 [ -0.6424456 ]
+	p( us | to ...) 	= [2gram] 0.0005343178 [ -3.2722 ]
+	p( then | us ...) 	= [2gram] 0.001461322 [ -2.835254 ]
+	p( listen | then ...) 	= [1gram] 3.357708e-05 [ -4.473957 ]
+	p( to | listen ...) 	= [2gram] 0.8097015 [ -0.09167506 ]
+	p( us | to ...) 	= [3gram] 0.002426565 [ -2.615008 ]
+	p( </s> | us ...) 	= [3gram] 0.21875 [ -0.6600519 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -23.19473 ppl= 128.414 ppl1= 208.6765
+10 words, rank1= 0.1 rank5= 0.2 rank10= 0.3
+11 words+sents, rank1wSent= 0.1818181818181818 rank5wSent= 0.2727272727272727 rank10wSent= 0.3636363636363636 qloss= 0.9095529170924779 absloss= 0.8792067968955991
+
+anyway when hermita makes she makes it uh often with corn
+	p( anyway | <s> ) 	= [2gram] 0.0004347524 [ -3.361758 ]
+	p( when | anyway ...) 	= [2gram] 0.001666943 [ -2.778079 ]
+	p( <unk> | when ...) 	= [OOV] 0 [ -inf ]
+	p( makes | <unk> ...) 	= [1gram] 0.0002784723 [ -3.555218 ]
+	p( she | makes ...) 	= [1gram] 0.0002634456 [ -3.579309 ]
+	p( makes | she ...) 	= [2gram] 0.003578829 [ -2.446259 ]
+	p( it | makes ...) 	= [2gram] 0.2306567 [ -0.6370339 ]
+	p( uh | it ...) 	= [3gram] 0.01086078 [ -1.964139 ]
+	p( often | uh ...) 	= [2gram] 1.337033e-05 [ -4.873858 ]
+	p( with | often ...) 	= [2gram] 0.0006801428 [ -3.1674 ]
+	p( corn | with ...) 	= [2gram] 9.236197e-05 [ -4.034507 ]
+	p( </s> | corn ...) 	= [2gram] 0.1428571 [ -0.845098 ]
+1 sentences, 11 words, 1 OOVs
+0 zeroprobs, logprob= -31.24266 ppl= 692.2161 ppl1= 1331.269
+11 words, rank1= 0.09090909090909091 rank5= 0.09090909090909091 rank10= 0.09090909090909091
+12 words+sents, rank1wSent= 0.08333333333333333 rank5wSent= 0.1666666666666667 rank10wSent= 0.1666666666666667 qloss= 0.9260570152169395 absloss= 0.8840514216452022
+
+uh using the english word not the chilean
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( using | uh ...) 	= [2gram] 9.759704e-05 [ -4.010563 ]
+	p( the | using ...) 	= [3gram] 0.07020855 [ -1.15361 ]
+	p( english | the ...) 	= [2gram] 0.0002380942 [ -3.623251 ]
+	p( word | english ...) 	= [1gram] 3.853298e-05 [ -4.414167 ]
+	p( not | word ...) 	= [1gram] 0.001849117 [ -2.733036 ]
+	p( the | not ...) 	= [2gram] 0.02328708 [ -1.632885 ]
+	p( chilean | the ...) 	= [1gram] 1.863116e-10 [ -9.72976 ]
+	p( </s> | chilean ...) 	= [1gram] 0.07709478 [ -1.112975 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -29.94033 ppl= 2121.796 ppl1= 5527.663
+8 words, rank1= 0 rank5= 0.125 rank10= 0.375
+9 words+sents, rank1wSent= 0.1111111111111111 rank5wSent= 0.2222222222222222 rank10wSent= 0.4444444444444444 qloss= 0.9779598431965184 absloss= 0.9775199916606506
+
+and uh i don't think she uses rice but uh
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( uh | and ...) 	= [3gram] 0.1653483 [ -0.7816002 ]
+	p( i | uh ...) 	= [3gram] 0.1009059 [ -0.9960836 ]
+	p( don't | i ...) 	= [3gram] 0.13506 [ -0.8694733 ]
+	p( think | don't ...) 	= [3gram] 0.1336679 [ -0.873973 ]
+	p( she | think ...) 	= [3gram] 0.006736077 [ -2.171593 ]
+	p( uses | she ...) 	= [2gram] 0.001009311 [ -2.995975 ]
+	p( rice | uses ...) 	= [1gram] 1.22873e-05 [ -4.910543 ]
+	p( but | rice ...) 	= [2gram] 0.01736273 [ -1.760382 ]
+	p( uh | but ...) 	= [2gram] 0.1347872 [ -0.8703512 ]
+	p( </s> | uh ...) 	= [3gram] 0.1869031 [ -0.7283834 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -18.05733 ppl= 43.81024 ppl1= 63.9342
+10 words, rank1= 0.2 rank5= 0.6 rank10= 0.7
+11 words+sents, rank1wSent= 0.2727272727272727 rank5wSent= 0.6363636363636364 rank10wSent= 0.7272727272727273 qloss= 0.9150554380856677 absloss= 0.9125987701757886
+
+uh i'm just i'm just waking up from my siesta so i'm a
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( i'm | uh ...) 	= [3gram] 0.01019002 [ -1.991825 ]
+	p( just | i'm ...) 	= [3gram] 0.03651119 [ -1.437574 ]
+	p( i'm | just ...) 	= [3gram] 0.03692309 [ -1.432702 ]
+	p( just | i'm ...) 	= [3gram] 0.1275963 [ -0.8941618 ]
+	p( waking | just ...) 	= [1gram] 4.843653e-07 [ -6.314827 ]
+	p( up | waking ...) 	= [2gram] 0.850068 [ -0.07054634 ]
+	p( from | up ...) 	= [2gram] 0.002472053 [ -2.606942 ]
+	p( my | from ...) 	= [2gram] 0.01423068 [ -1.846774 ]
+	p( siesta | my ...) 	= [1gram] 6.176276e-08 [ -7.209273 ]
+	p( so | siesta ...) 	= [1gram] 0.005393094 [ -2.268162 ]
+	p( i'm | so ...) 	= [2gram] 0.01498594 [ -1.824316 ]
+	p( a | i'm ...) 	= [3gram] 0.01295901 [ -1.887428 ]
+	p( </s> | a ...) 	= [3gram] 0.005986695 [ -2.222813 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -33.53743 ppl= 248.6169 ppl1= 380.0164
+13 words, rank1= 0.07692307692307693 rank5= 0.2307692307692308 rank10= 0.3846153846153846
+14 words+sents, rank1wSent= 0.07142857142857142 rank5wSent= 0.2142857142857143 rank10wSent= 0.3571428571428572 qloss= 0.9430038402071259 absloss= 0.918084074254078
+
+okay when i when i'm out of the sack i'll go ask her
+	p( okay | <s> ) 	= [2gram] 0.01281504 [ -1.89228 ]
+	p( when | okay ...) 	= [3gram] 0.0006404897 [ -3.193488 ]
+	p( i | when ...) 	= [2gram] 0.2459141 [ -0.6092166 ]
+	p( when | i ...) 	= [3gram] 0.01791959 [ -1.746672 ]
+	p( i'm | when ...) 	= [3gram] 0.01042701 [ -1.98184 ]
+	p( out | i'm ...) 	= [2gram] 0.00287927 [ -2.540718 ]
+	p( of | out ...) 	= [3gram] 0.2926829 [ -0.5336026 ]
+	p( the | of ...) 	= [3gram] 0.2201579 [ -0.6572657 ]
+	p( sack | the ...) 	= [1gram] 1.864313e-06 [ -5.729481 ]
+	p( i'll | sack ...) 	= [1gram] 0.0003446423 [ -3.462631 ]
+	p( go | i'll ...) 	= [2gram] 0.0413174 [ -1.383867 ]
+	p( ask | go ...) 	= [1gram] 1.210329e-05 [ -4.917097 ]
+	p( her | ask ...) 	= [2gram] 0.02380954 [ -1.623249 ]
+	p( </s> | her ...) 	= [2gram] 0.04710341 [ -1.326948 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -31.59836 ppl= 180.728 ppl1= 269.5521
+13 words, rank1= 0.2307692307692308 rank5= 0.3076923076923077 rank10= 0.4615384615384616
+14 words+sents, rank1wSent= 0.2142857142857143 rank5wSent= 0.3571428571428572 rank10wSent= 0.5 qloss= 0.9398955734993278 absloss= 0.9345696244663418
+
+yeah yeah yeah yeah
+	p( yeah | <s> ) 	= [2gram] 0.1361426 [ -0.8660061 ]
+	p( yeah | yeah ...) 	= [3gram] 0.0534813 [ -1.271798 ]
+	p( yeah | yeah ...) 	= [3gram] 0.03072748 [ -1.512473 ]
+	p( yeah | yeah ...) 	= [3gram] 0.03072748 [ -1.512473 ]
+	p( </s> | yeah ...) 	= [3gram] 0.4283778 [ -0.3681731 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -5.530923 ppl= 12.76982 ppl1= 24.13964
+4 words, rank1= 0.25 rank5= 0.5 rank10= 1
+5 words+sents, rank1wSent= 0.4 rank5wSent= 0.6 rank10wSent= 1 qloss= 0.8772545497195809 absloss= 0.8641086822593893
+
+isabel is that what the
+	p( isabel | <s> ) 	= [1gram] 3.882115e-11 [ -10.41093 ]
+	p( is | isabel ...) 	= [1gram] 0.007679747 [ -2.114653 ]
+	p( that | is ...) 	= [2gram] 0.07390792 [ -1.131309 ]
+	p( what | that ...) 	= [3gram] 0.03532011 [ -1.451978 ]
+	p( the | what ...) 	= [3gram] 0.02272914 [ -1.643417 ]
+	p( </s> | the ...) 	= [3gram] 0.01830282 [ -1.737482 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -18.48977 ppl= 1206.781 ppl1= 4988.318
+5 words, rank1= 0.2 rank5= 0.2 rank10= 0.6
+6 words+sents, rank1wSent= 0.1666666666666667 rank5wSent= 0.1666666666666667 rank10wSent= 0.6666666666666666 qloss= 0.9739730494786901 absloss= 0.973676710889722
+
+oh okay
+	p( oh | <s> ) 	= [2gram] 0.05978456 [ -1.223411 ]
+	p( okay | oh ...) 	= [3gram] 0.06028274 [ -1.219807 ]
+	p( </s> | okay ...) 	= [3gram] 0.5566344 [ -0.25443 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -2.697648 ppl= 7.928956 ppl1= 22.32667
+2 words, rank1= 0 rank5= 1 rank10= 1
+3 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 1 rank10wSent= 1 qloss= 0.8090419652702122 absloss= 0.7744327836458292
+
+okay
+	p( okay | <s> ) 	= [2gram] 0.01281504 [ -1.89228 ]
+	p( </s> | okay ...) 	= [3gram] 0.3852251 [ -0.4142854 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.306565 ppl= 14.23255 ppl1= 202.5655
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8223388246901279 absloss= 0.8009799151138484
+
+th- that's a nickname yes oh
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( that's | <unk> ...) 	= [1gram] 0.006065924 [ -2.217103 ]
+	p( a | that's ...) 	= [2gram] 0.06909379 [ -1.160561 ]
+	p( nickname | a ...) 	= [1gram] 4.642897e-08 [ -7.333211 ]
+	p( yes | nickname ...) 	= [1gram] 0.0008650017 [ -3.062983 ]
+	p( oh | yes ...) 	= [2gram] 0.006870415 [ -2.163017 ]
+	p( </s> | oh ...) 	= [3gram] 0.0696588 [ -1.157024 ]
+1 sentences, 6 words, 1 OOVs
+0 zeroprobs, logprob= -17.0939 ppl= 706.2902 ppl1= 2622.888
+6 words, rank1= 0 rank5= 0.1666666666666667 rank10= 0.1666666666666667
+7 words+sents, rank1wSent= 0 rank5wSent= 0.2857142857142857 rank10wSent= 0.2857142857142857 qloss= 0.9027420997269505 absloss= 0.8353494316962033
+
+you're making me hungry
+	p( you're | <s> ) 	= [2gram] 0.0009426401 [ -3.025654 ]
+	p( making | you're ...) 	= [2gram] 0.002414075 [ -2.617249 ]
+	p( me | making ...) 	= [2gram] 0.01012017 [ -1.994812 ]
+	p( hungry | me ...) 	= [3gram] 0.2885866 [ -0.5397239 ]
+	p( </s> | hungry ...) 	= [2gram] 0.118566 [ -0.9260399 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -9.103479 ppl= 66.1753 ppl1= 188.7426
+4 words, rank1= 0.25 rank5= 0.25 rank10= 0.25
+5 words+sents, rank1wSent= 0.2 rank5wSent= 0.4 rank10wSent= 0.4 qloss= 0.9226256389004054 absloss= 0.915874110773197
+
+well mathey came home with some of those famous chilean meat turnovers today
+	p( well | <s> ) 	= [2gram] 0.04186624 [ -1.378136 ]
+	p( <unk> | well ...) 	= [OOV] 0 [ -inf ]
+	p( came | <unk> ...) 	= [1gram] 0.0003323495 [ -3.478405 ]
+	p( home | came ...) 	= [2gram] 0.03864274 [ -1.412932 ]
+	p( with | home ...) 	= [3gram] 0.02568609 [ -1.590302 ]
+	p( some | with ...) 	= [2gram] 0.00501661 [ -2.29959 ]
+	p( of | some ...) 	= [3gram] 0.3096774 [ -0.5090905 ]
+	p( those | of ...) 	= [3gram] 0.06875639 [ -1.162687 ]
+	p( famous | those ...) 	= [3gram] 0.001120351 [ -2.950646 ]
+	p( chilean | famous ...) 	= [1gram] 3.002934e-10 [ -9.522454 ]
+	p( meat | chilean ...) 	= [1gram] 4.040826e-05 [ -4.39353 ]
+	p( turnovers | meat ...) 	= [2gram] 0.00271003 [ -2.567026 ]
+	p( today | turnovers ...) 	= [1gram] 0.0001269333 [ -3.896424 ]
+	p( </s> | today ...) 	= [2gram] 0.2052174 [ -0.6877859 ]
+1 sentences, 13 words, 1 OOVs
+0 zeroprobs, logprob= -35.84901 ppl= 572.2898 ppl1= 971.4431
+13 words, rank1= 0.07692307692307693 rank5= 0.1538461538461539 rank10= 0.3846153846153846
+14 words+sents, rank1wSent= 0.1428571428571428 rank5wSent= 0.2142857142857143 rank10wSent= 0.4285714285714285 qloss= 0.9160589348195333 absloss= 0.8786290785619012
+
+we had uh chilean meat turnovers for
+	p( we | <s> ) 	= [2gram] 0.005627403 [ -2.249692 ]
+	p( had | we ...) 	= [3gram] 0.06714799 [ -1.172967 ]
+	p( uh | had ...) 	= [3gram] 0.04586517 [ -1.338517 ]
+	p( chilean | uh ...) 	= [1gram] 4.726125e-10 [ -9.325495 ]
+	p( meat | chilean ...) 	= [1gram] 4.040826e-05 [ -4.39353 ]
+	p( turnovers | meat ...) 	= [2gram] 0.00271003 [ -2.567026 ]
+	p( for | turnovers ...) 	= [1gram] 0.004104694 [ -2.386719 ]
+	p( </s> | for ...) 	= [2gram] 0.01914595 [ -1.717923 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -25.15187 ppl= 1393.104 ppl1= 3918.538
+7 words, rank1= 0 rank5= 0.2857142857142857 rank10= 0.2857142857142857
+8 words+sents, rank1wSent= 0 rank5wSent= 0.25 rank10wSent= 0.375 qloss= 0.982201073182127 absloss= 0.9819197930265759
+
+right
+	p( right | <s> ) 	= [2gram] 0.03372788 [ -1.472011 ]
+	p( </s> | right ...) 	= [3gram] 0.6267919 [ -0.2028766 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -1.674888 ppl= 6.877709 ppl1= 47.30288
+1 words, rank1= 0 rank5= 0 rank10= 1
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 1 qloss= 0.7324500218275334 absloss= 0.6697400911449112
+
+anyway
+	p( anyway | <s> ) 	= [2gram] 0.0004347524 [ -3.361758 ]
+	p( </s> | anyway ...) 	= [3gram] 0.2242991 [ -0.6491725 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -4.01093 ppl= 101.2664 ppl1= 10254.88
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0.5 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.8946626691490549 absloss= 0.8876330778851754
+
+y- right
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( right | <unk> ...) 	= [1gram] 0.005029411 [ -2.298483 ]
+	p( </s> | right ...) 	= [2gram] 0.4842426 [ -0.314937 ]
+1 sentences, 2 words, 1 OOVs
+0 zeroprobs, logprob= -2.61342 ppl= 20.26329 ppl1= 410.6009
+2 words, rank1= 0 rank5= 0 rank10= 0
+3 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 0.3333333333333333 rank10wSent= 0.3333333333333333 qloss= 0.6470373908851365 absloss= 0.5035759920464363
+
+i was amused by uh your
+	p( i | <s> ) 	= [2gram] 0.04885893 [ -1.311056 ]
+	p( was | i ...) 	= [3gram] 0.02569644 [ -1.590127 ]
+	p( amused | was ...) 	= [1gram] 2.990142e-08 [ -7.524308 ]
+	p( by | amused ...) 	= [1gram] 0.0005731126 [ -3.24176 ]
+	p( uh | by ...) 	= [2gram] 0.03202845 [ -1.494464 ]
+	p( your | uh ...) 	= [2gram] 0.000851786 [ -3.069669 ]
+	p( </s> | your ...) 	= [3gram] 0.02025247 [ -1.693522 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -19.92491 ppl= 702.1263 ppl1= 2093.234
+6 words, rank1= 0 rank5= 0.3333333333333333 rank10= 0.5
+7 words+sents, rank1wSent= 0 rank5wSent= 0.4285714285714285 rank10wSent= 0.5714285714285714 qloss= 0.9818322582296662 absloss= 0.9816769672980546
+
+your your report of your new neighbors who don't speak any english and you had to speak another foreign language to them and
+	p( your | <s> ) 	= [2gram] 0.0003819319 [ -3.418014 ]
+	p( your | your ...) 	= [3gram] 0.06303547 [ -1.200415 ]
+	p( report | your ...) 	= [2gram] 0.0001891132 [ -3.723278 ]
+	p( of | report ...) 	= [2gram] 0.002987976 [ -2.524623 ]
+	p( your | of ...) 	= [2gram] 0.006901462 [ -2.161059 ]
+	p( new | your ...) 	= [2gram] 0.001001789 [ -2.999224 ]
+	p( neighbors | new ...) 	= [1gram] 9.613775e-06 [ -5.017106 ]
+	p( who | neighbors ...) 	= [2gram] 0.003567278 [ -2.447663 ]
+	p( don't | who ...) 	= [2gram] 0.01626826 [ -1.788659 ]
+	p( speak | don't ...) 	= [2gram] 0.0003216811 [ -3.492574 ]
+	p( any | speak ...) 	= [1gram] 0.0003812214 [ -3.418823 ]
+	p( english | any ...) 	= [1gram] 2.26456e-05 [ -4.645016 ]
+	p( and | english ...) 	= [2gram] 0.1309524 [ -0.8828866 ]
+	p( you | and ...) 	= [2gram] 0.03251482 [ -1.487919 ]
+	p( had | you ...) 	= [3gram] 0.006998889 [ -2.154971 ]
+	p( to | had ...) 	= [3gram] 0.3281597 [ -0.4839148 ]
+	p( speak | to ...) 	= [2gram] 0.00065159 [ -3.186026 ]
+	p( another | speak ...) 	= [2gram] 0.001359496 [ -2.866622 ]
+	p( foreign | another ...) 	= [1gram] 2.000201e-05 [ -4.698926 ]
+	p( language | foreign ...) 	= [2gram] 0.008743814 [ -2.058299 ]
+	p( to | language ...) 	= [1gram] 0.00990223 [ -2.004267 ]
+	p( them | to ...) 	= [2gram] 0.005402167 [ -2.267432 ]
+	p( and | them ...) 	= [3gram] 0.1378378 [ -0.8606315 ]
+	p( </s> | and ...) 	= [3gram] 0.05935482 [ -1.226544 ]
+1 sentences, 23 words, 0 OOVs
+0 zeroprobs, logprob= -61.01489 ppl= 348.5678 ppl1= 449.595
+23 words, rank1= 0.1304347826086956 rank5= 0.1739130434782609 rank10= 0.2173913043478261
+24 words+sents, rank1wSent= 0.125 rank5wSent= 0.2083333333333333 rank10wSent= 0.25 qloss= 0.9686556026467812 absloss= 0.9659597430508059
+
+kept getting your wires crossed and speaking the wrong language
+	p( kept | <s> ) 	= [2gram] 8.965573e-06 [ -5.047422 ]
+	p( getting | kept ...) 	= [2gram] 0.03384612 [ -1.470491 ]
+	p( your | getting ...) 	= [2gram] 0.003154544 [ -2.501063 ]
+	p( wires | your ...) 	= [1gram] 1.475349e-06 [ -5.831105 ]
+	p( crossed | wires ...) 	= [1gram] 3.473896e-06 [ -5.459183 ]
+	p( and | crossed ...) 	= [1gram] 0.01471786 [ -1.832155 ]
+	p( speaking | and ...) 	= [2gram] 1.189614e-05 [ -4.924594 ]
+	p( the | speaking ...) 	= [2gram] 0.003093748 [ -2.509515 ]
+	p( wrong | the ...) 	= [2gram] 0.001030317 [ -2.987029 ]
+	p( language | wrong ...) 	= [1gram] 7.627645e-06 [ -5.11761 ]
+	p( </s> | language ...) 	= [2gram] 0.1792453 [ -0.7465523 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -38.42672 ppl= 3114.14 ppl1= 6961.006
+10 words, rank1= 0 rank5= 0 rank10= 0.2
+11 words+sents, rank1wSent= 0.09090909090909091 rank5wSent= 0.09090909090909091 rank10wSent= 0.2727272727272727 qloss= 0.9799475407532084 absloss= 0.9786253355035945
+
+h- having to think word for word
+	p( <unk> | <s> ) 	= [OOV] 0 [ -inf ]
+	p( having | <unk> ...) 	= [1gram] 0.0004288278 [ -3.367717 ]
+	p( to | having ...) 	= [2gram] 0.165084 [ -0.782295 ]
+	p( think | to ...) 	= [3gram] 0.004659863 [ -2.331627 ]
+	p( word | think ...) 	= [1gram] 3.670312e-06 [ -5.435297 ]
+	p( for | word ...) 	= [2gram] 0.06521733 [ -1.185637 ]
+	p( word | for ...) 	= [2gram] 8.799104e-05 [ -4.055562 ]
+	p( </s> | word ...) 	= [2gram] 0.09387626 [ -1.027444 ]
+1 sentences, 7 words, 1 OOVs
+0 zeroprobs, logprob= -18.18558 ppl= 396.2231 ppl1= 1073.816
+7 words, rank1= 0 rank5= 0.2857142857142857 rank10= 0.2857142857142857
+8 words+sents, rank1wSent= 0 rank5wSent= 0.375 rank10wSent= 0.375 qloss= 0.8931422616418613 absloss= 0.8338302567830698
+
+too redundant
+	p( too | <s> ) 	= [2gram] 0.0003372376 [ -3.472064 ]
+	p( redundant | too ...) 	= [1gram] 8.63291e-08 [ -7.063843 ]
+	p( </s> | redundant ...) 	= [2gram] 0.1747967 [ -0.7574668 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -11.29337 ppl= 5813.77 ppl1= 443288.8
+2 words, rank1= 0 rank5= 0 rank10= 0
+3 words+sents, rank1wSent= 0 rank5wSent= 0.3333333333333333 rank10wSent= 0.3333333333333333 qloss= 0.9452135503095171 absloss= 0.9416219950253296
+
+uh speaking of of this other foreign language well russian i guess we can use an english word for that the uh uh w- we we
+	p( uh | <s> ) 	= [2gram] 0.02950632 [ -1.530085 ]
+	p( speaking | uh ...) 	= [2gram] 7.907902e-06 [ -5.101939 ]
+	p( of | speaking ...) 	= [2gram] 0.318584 [ -0.496776 ]
+	p( of | of ...) 	= [2gram] 0.009320061 [ -2.030581 ]
+	p( this | of ...) 	= [2gram] 0.004458884 [ -2.350774 ]
+	p( other | this ...) 	= [3gram] 0.003929588 [ -2.405653 ]
+	p( foreign | other ...) 	= [1gram] 8.444144e-06 [ -5.073444 ]
+	p( language | foreign ...) 	= [2gram] 0.008743814 [ -2.058299 ]
+	p( well | language ...) 	= [1gram] 0.003086577 [ -2.510523 ]
+	p( russian | well ...) 	= [1gram] 1.783582e-06 [ -5.748707 ]
+	p( i | russian ...) 	= [1gram] 0.0204504 [ -1.689298 ]
+	p( guess | i ...) 	= [2gram] 0.04507586 [ -1.346056 ]
+	p( we | guess ...) 	= [3gram] 0.02469136 [ -1.607455 ]
+	p( can | we ...) 	= [3gram] 0.02915258 [ -1.535323 ]
+	p( use | can ...) 	= [3gram] 0.005046625 [ -2.296999 ]
+	p( an | use ...) 	= [2gram] 0.004008226 [ -2.397048 ]
+	p( english | an ...) 	= [2gram] 0.002717389 [ -2.565848 ]
+	p( word | english ...) 	= [1gram] 3.903134e-05 [ -4.408587 ]
+	p( for | word ...) 	= [2gram] 0.06521733 [ -1.185637 ]
+	p( that | for ...) 	= [2gram] 0.01284981 [ -1.891103 ]
+	p( the | that ...) 	= [2gram] 0.01201678 [ -1.920212 ]
+	p( uh | the ...) 	= [3gram] 0.04563762 [ -1.340677 ]
+	p( uh | uh ...) 	= [3gram] 0.04852684 [ -1.314018 ]
+	p( <unk> | uh ...) 	= [OOV] 0 [ -inf ]
+	p( we | <unk> ...) 	= [1gram] 0.007690399 [ -2.114051 ]
+	p( we | we ...) 	= [2gram] 0.03156698 [ -1.500767 ]
+	p( </s> | we ...) 	= [3gram] 0.01032257 [ -1.986212 ]
+1 sentences, 26 words, 1 OOVs
+0 zeroprobs, logprob= -60.40607 ppl= 210.5283 ppl1= 260.7611
+26 words, rank1= 0.07692307692307693 rank5= 0.1923076923076923 rank10= 0.3846153846153846
+27 words+sents, rank1wSent= 0.07407407407407407 rank5wSent= 0.1851851851851852 rank10wSent= 0.3703703703703703 qloss= 0.9551300344637698 absloss= 0.9354571411029661
+
+are buying a car in fact we may even pick it up tomorrow
+	p( are | <s> ) 	= [2gram] 0.00201124 [ -2.696536 ]
+	p( buying | are ...) 	= [2gram] 0.000172766 [ -3.762542 ]
+	p( a | buying ...) 	= [2gram] 0.2431215 [ -0.6141766 ]
+	p( car | a ...) 	= [3gram] 0.1466667 [ -0.8336686 ]
+	p( in | car ...) 	= [3gram] 0.01574766 [ -1.802784 ]
+	p( fact | in ...) 	= [2gram] 0.017244 [ -1.763362 ]
+	p( we | fact ...) 	= [3gram] 0.06225166 [ -1.205849 ]
+	p( may | we ...) 	= [2gram] 0.001723608 [ -2.763561 ]
+	p( even | may ...) 	= [2gram] 0.00603847 [ -2.219073 ]
+	p( pick | even ...) 	= [2gram] 8.857194e-05 [ -4.052704 ]
+	p( it | pick ...) 	= [2gram] 0.1065574 [ -0.9724165 ]
+	p( up | it ...) 	= [3gram] 0.8923077 [ -0.04948536 ]
+	p( tomorrow | up ...) 	= [2gram] 9.247958e-05 [ -4.033954 ]
+	p( </s> | tomorrow ...) 	= [2gram] 0.2058823 [ -0.6863809 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -27.45649 ppl= 91.44882 ppl1= 129.4309
+13 words, rank1= 0.1538461538461539 rank5= 0.3846153846153846 rank10= 0.4615384615384616
+14 words+sents, rank1wSent= 0.2142857142857143 rank5wSent= 0.4285714285714285 rank10wSent= 0.5 qloss= 0.9077140171170204 absloss= 0.8785781415950012
+
+and uh the uh the young man who is the salesman who is very nice his name is m i r
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( uh | and ...) 	= [3gram] 0.1653483 [ -0.7816002 ]
+	p( the | uh ...) 	= [3gram] 0.03531702 [ -1.452016 ]
+	p( uh | the ...) 	= [3gram] 0.04331586 [ -1.363353 ]
+	p( the | uh ...) 	= [3gram] 0.2023397 [ -0.6939189 ]
+	p( young | the ...) 	= [2gram] 0.0006730481 [ -3.171954 ]
+	p( man | young ...) 	= [2gram] 0.01075132 [ -1.968538 ]
+	p( who | man ...) 	= [3gram] 0.183646 [ -0.7360186 ]
+	p( is | who ...) 	= [2gram] 0.05378485 [ -1.26934 ]
+	p( the | is ...) 	= [3gram] 0.06790128 [ -1.168122 ]
+	p( salesman | the ...) 	= [2gram] 5.737885e-05 [ -4.241248 ]
+	p( who | salesman ...) 	= [1gram] 0.0005580384 [ -3.253336 ]
+	p( is | who ...) 	= [2gram] 0.05378485 [ -1.26934 ]
+	p( very | is ...) 	= [3gram] 0.02483367 [ -1.604959 ]
+	p( nice | very ...) 	= [3gram] 0.04035877 [ -1.394062 ]
+	p( his | nice ...) 	= [1gram] 0.0002536465 [ -3.595771 ]
+	p( name | his ...) 	= [2gram] 0.05287361 [ -1.276761 ]
+	p( is | name ...) 	= [3gram] 0.1826087 [ -0.7384785 ]
+	p( m | is ...) 	= [1gram] 3.783579e-05 [ -4.422097 ]
+	p( i | m ...) 	= [2gram] 0.06334845 [ -1.198264 ]
+	p( r | i ...) 	= [3gram] 0.03761179 [ -1.424676 ]
+	p( </s> | r ...) 	= [2gram] 0.01238248 [ -1.907192 ]
+1 sentences, 21 words, 0 OOVs
+0 zeroprobs, logprob= -40.03002 ppl= 66.00037 ppl1= 80.57335
+21 words, rank1= 0.2380952380952381 rank5= 0.6190476190476191 rank10= 0.7142857142857143
+22 words+sents, rank1wSent= 0.2272727272727273 rank5wSent= 0.6363636363636364 rank10wSent= 0.7272727272727273 qloss= 0.9425096174653401 absloss= 0.9403905755134829
+
+and so i said to him and he looked at me say what
+	p( and | <s> ) 	= [2gram] 0.0796207 [ -1.098974 ]
+	p( so | and ...) 	= [3gram] 0.04266395 [ -1.369939 ]
+	p( i | so ...) 	= [3gram] 0.1460584 [ -0.8354734 ]
+	p( said | i ...) 	= [3gram] 0.00737101 [ -2.132473 ]
+	p( to | said ...) 	= [3gram] 0.004864633 [ -2.31295 ]
+	p( him | to ...) 	= [2gram] 0.0008082959 [ -3.09243 ]
+	p( and | him ...) 	= [3gram] 0.1315789 [ -0.8808136 ]
+	p( he | and ...) 	= [3gram] 0.1023256 [ -0.9900158 ]
+	p( looked | he ...) 	= [3gram] 0.003465357 [ -2.460252 ]
+	p( at | looked ...) 	= [3gram] 0.5333333 [ -0.2730013 ]
+	p( me | at ...) 	= [3gram] 0.03210488 [ -1.493429 ]
+	p( say | me ...) 	= [2gram] 0.00022044 [ -3.65671 ]
+	p( what | say ...) 	= [2gram] 0.007602066 [ -2.119068 ]
+	p( </s> | what ...) 	= [3gram] 0.02568609 [ -1.590302 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -24.30583 ppl= 54.46666 ppl1= 74.0763
+13 words, rank1= 0.2307692307692308 rank5= 0.4615384615384616 rank10= 0.5384615384615384
+14 words+sents, rank1wSent= 0.2142857142857143 rank5wSent= 0.4285714285714285 rank10wSent= 0.5 qloss= 0.9299828100277304 absloss= 0.9201640256489576
+
+so i said aw you don't you don't speak russian i said in spanish
+	p( so | <s> ) 	= [2gram] 0.02428522 [ -1.614658 ]
+	p( i | so ...) 	= [3gram] 0.1442195 [ -0.840976 ]
+	p( said | i ...) 	= [3gram] 0.00737101 [ -2.132473 ]
+	p( aw | said ...) 	= [1gram] 2.335093e-07 [ -6.631696 ]
+	p( you | aw ...) 	= [1gram] 0.0159076 [ -1.798395 ]
+	p( don't | you ...) 	= [2gram] 0.02092189 [ -1.679399 ]
+	p( you | don't ...) 	= [3gram] 0.02507835 [ -1.600701 ]
+	p( don't | you ...) 	= [3gram] 0.07643318 [ -1.116718 ]
+	p( speak | don't ...) 	= [2gram] 0.0004690922 [ -3.328742 ]
+	p( russian | speak ...) 	= [1gram] 4.046322e-06 [ -5.39294 ]
+	p( i | russian ...) 	= [1gram] 0.0204504 [ -1.689298 ]
+	p( said | i ...) 	= [2gram] 0.007080288 [ -2.149949 ]
+	p( in | said ...) 	= [3gram] 0.003575962 [ -2.446607 ]
+	p( spanish | in ...) 	= [2gram] 3.43229e-05 [ -4.464416 ]
+	p( </s> | spanish ...) 	= [2gram] 0.1008555 [ -0.9963003 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -37.88327 ppl= 335.3908 ppl1= 508.0983
+14 words, rank1= 0.07142857142857142 rank5= 0.2142857142857143 rank10= 0.4285714285714285
+15 words+sents, rank1wSent= 0.1333333333333333 rank5wSent= 0.2666666666666667 rank10wSent= 0.4666666666666667 qloss= 0.9711122493316565 absloss= 0.9702208904613191
+
+no he said he said no i i i know no russian uh uh i i have no association whatsoever with russian except i have this name he
+	p( no | <s> ) 	= [2gram] 0.01304256 [ -1.884637 ]
+	p( he | no ...) 	= [3gram] 0.005919009 [ -2.227751 ]
+	p( said | he ...) 	= [2gram] 0.03029921 [ -1.518569 ]
+	p( he | said ...) 	= [3gram] 0.07323944 [ -1.135255 ]
+	p( said | he ...) 	= [3gram] 0.06161082 [ -1.210343 ]
+	p( no | said ...) 	= [3gram] 0.0253521 [ -1.595986 ]
+	p( i | no ...) 	= [3gram] 0.06635001 [ -1.178159 ]
+	p( i | i ...) 	= [3gram] 0.09254012 [ -1.03367 ]
+	p( i | i ...) 	= [3gram] 0.08586833 [ -1.066167 ]
+	p( know | i ...) 	= [3gram] 0.02350667 [ -1.628809 ]
+	p( no | know ...) 	= [3gram] 0.0002794184 [ -3.553745 ]
+	p( russian | no ...) 	= [1gram] 2.645799e-06 [ -5.577443 ]
+	p( uh | russian ...) 	= [1gram] 0.01179649 [ -1.928247 ]
+	p( uh | uh ...) 	= [2gram] 0.03734263 [ -1.427795 ]
+	p( i | uh ...) 	= [3gram] 0.07432432 [ -1.128869 ]
+	p( i | i ...) 	= [3gram] 0.07526499 [ -1.123407 ]
+	p( have | i ...) 	= [3gram] 0.03125 [ -1.50515 ]
+	p( no | have ...) 	= [3gram] 0.02315688 [ -1.63532 ]
+	p( association | no ...) 	= [1gram] 2.032706e-06 [ -5.691926 ]
+	p( whatsoever | association ...) 	= [1gram] 7.500861e-06 [ -5.124889 ]
+	p( with | whatsoever ...) 	= [1gram] 0.001268095 [ -2.896848 ]
+	p( russian | with ...) 	= [2gram] 9.236197e-05 [ -4.034507 ]
+	p( except | russian ...) 	= [1gram] 6.320545e-05 [ -4.199245 ]
+	p( i | except ...) 	= [2gram] 0.06371197 [ -1.195779 ]
+	p( have | i ...) 	= [2gram] 0.03003391 [ -1.522388 ]
+	p( this | have ...) 	= [3gram] 0.003544427 [ -2.450454 ]
+	p( name | this ...) 	= [1gram] 7.472009e-05 [ -4.126563 ]
+	p( he | name ...) 	= [2gram] 0.004923307 [ -2.307743 ]
+	p( </s> | he ...) 	= [2gram] 0.01478904 [ -1.83006 ]
+1 sentences, 28 words, 0 OOVs
+0 zeroprobs, logprob= -67.73972 ppl= 216.6968 ppl1= 262.5886
+28 words, rank1= 0.03571428571428571 rank5= 0.3214285714285715 rank10= 0.5357142857142857
+29 words+sents, rank1wSent= 0.03448275862068965 rank5wSent= 0.3103448275862069 rank10wSent= 0.5172413793103449 qloss= 0.9711699154410997 absloss= 0.9707015095169546
+
+said it almost as if it
+	p( said | <s> ) 	= [2gram] 2.417742e-05 [ -4.61659 ]
+	p( it | said ...) 	= [2gram] 0.02956051 [ -1.529288 ]
+	p( almost | it ...) 	= [2gram] 0.000305896 [ -3.514426 ]
+	p( as | almost ...) 	= [3gram] 0.07214663 [ -1.141784 ]
+	p( if | as ...) 	= [2gram] 0.00277847 [ -2.556194 ]
+	p( it | if ...) 	= [3gram] 0.05687154 [ -1.245105 ]
+	p( </s> | it ...) 	= [3gram] 0.00979578 [ -2.008961 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -16.61235 ppl= 236.1526 ppl1= 587.1171
+6 words, rank1= 0 rank5= 0.5 rank10= 0.5
+7 words+sents, rank1wSent= 0 rank5wSent= 0.4285714285714285 rank10wSent= 0.4285714285714285 qloss= 0.9758842948014635 absloss= 0.975502428192527
+
+well i would i i suspect that
+	p( well | <s> ) 	= [2gram] 0.04186624 [ -1.378136 ]
+	p( i | well ...) 	= [3gram] 0.2027368 [ -0.6930674 ]
+	p( would | i ...) 	= [3gram] 0.009761107 [ -2.010501 ]
+	p( i | would ...) 	= [3gram] 0.03430694 [ -1.464618 ]
+	p( i | i ...) 	= [3gram] 0.03438508 [ -1.46363 ]
+	p( suspect | i ...) 	= [3gram] 0.001244469 [ -2.905016 ]
+	p( that | suspect ...) 	= [3gram] 0.2957747 [ -0.529039 ]
+	p( </s> | that ...) 	= [2gram] 0.05874519 [ -1.231028 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -11.67503 ppl= 28.79913 ppl1= 46.54383
+7 words, rank1= 0.2857142857142857 rank5= 0.4285714285714285 rank10= 0.7142857142857143
+8 words+sents, rank1wSent= 0.25 rank5wSent= 0.5 rank10wSent= 0.75 qloss= 0.9205028350164632 absloss= 0.9151474359740678
+
+yeah yeah sure sure sure and then
+	p( yeah | <s> ) 	= [2gram] 0.1361426 [ -0.8660061 ]
+	p( yeah | yeah ...) 	= [3gram] 0.0534813 [ -1.271798 ]
+	p( sure | yeah ...) 	= [3gram] 0.0009128364 [ -3.039607 ]
+	p( sure | sure ...) 	= [2gram] 0.01128704 [ -1.94742 ]
+	p( sure | sure ...) 	= [3gram] 0.02927689 [ -1.533475 ]
+	p( and | sure ...) 	= [3gram] 0.02927689 [ -1.533475 ]
+	p( then | and ...) 	= [2gram] 0.04713755 [ -1.326633 ]
+	p( </s> | then ...) 	= [3gram] 0.02965132 [ -1.527956 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -13.04637 ppl= 42.73624 ppl1= 73.07472
+7 words, rank1= 0.1428571428571428 rank5= 0.7142857142857143 rank10= 0.7142857142857143
+8 words+sents, rank1wSent= 0.125 rank5wSent= 0.625 rank10wSent= 0.75 qloss= 0.9586452620295757 absloss= 0.9578542004483279
+
+it's literally son of son of
+	p( it's | <s> ) 	= [2gram] 0.009848975 [ -2.006609 ]
+	p( literally | it's ...) 	= [2gram] 1.144765e-05 [ -4.941284 ]
+	p( son | literally ...) 	= [1gram] 0.0001256962 [ -3.900678 ]
+	p( of | son ...) 	= [2gram] 0.002355407 [ -2.627934 ]
+	p( son | of ...) 	= [1gram] 0.0001101876 [ -3.957867 ]
+	p( of | son ...) 	= [2gram] 0.002355407 [ -2.627934 ]
+	p( </s> | of ...) 	= [2gram] 0.009400588 [ -2.026845 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -22.08915 ppl= 1430.846 ppl1= 4803.139
+6 words, rank1= 0 rank5= 0 rank10= 0
+7 words+sents, rank1wSent= 0 rank5wSent= 0 rank10wSent= 0 qloss= 0.9965498395463337 absloss= 0.9965417558267439
+
+uhhuh uhhuh
+	p( uhhuh | <s> ) 	= [2gram] 0.1113373 [ -0.9533594 ]
+	p( uhhuh | uhhuh ...) 	= [3gram] 0.03474202 [ -1.459145 ]
+	p( </s> | uhhuh ...) 	= [3gram] 0.8356574 [ -0.07797175 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -2.490476 ppl= 6.763301 ppl1= 17.58887
+2 words, rank1= 0 rank5= 1 rank10= 1
+3 words+sents, rank1wSent= 0.3333333333333333 rank5wSent= 1 rank10wSent= 1 qloss= 0.763424939116824 absloss= 0.6727544444321776
+
+so
+	p( so | <s> ) 	= [2gram] 0.02428522 [ -1.614658 ]
+	p( </s> | so ...) 	= [3gram] 0.1050694 [ -0.9785236 ]
+1 sentences, 1 words, 0 OOVs
+0 zeroprobs, logprob= -2.593182 ppl= 19.79661 ppl1= 391.9057
+1 words, rank1= 0 rank5= 0 rank10= 0
+2 words+sents, rank1wSent= 0 rank5wSent= 0.5 rank10wSent= 0.5 qloss= 0.9361944392930713 absloss= 0.9353226747017832
+
+sure what are your neighbors doing in living in
+	p( sure | <s> ) 	= [2gram] 0.003295179 [ -2.482121 ]
+	p( what | sure ...) 	= [2gram] 0.00810806 [ -2.091083 ]
+	p( are | what ...) 	= [2gram] 0.01555213 [ -1.80821 ]
+	p( your | are ...) 	= [3gram] 0.1766382 [ -0.7529154 ]
+	p( neighbors | your ...) 	= [2gram] 0.0006922841 [ -3.159716 ]
+	p( doing | neighbors ...) 	= [1gram] 0.0004283843 [ -3.368166 ]
+	p( in | doing ...) 	= [2gram] 0.005769231 [ -2.238882 ]
+	p( living | in ...) 	= [2gram] 6.677708e-05 [ -4.175373 ]
+	p( in | living ...) 	= [2gram] 0.1687693 [ -0.7727065 ]
+	p( </s> | in ...) 	= [3gram] 0.03317508 [ -1.479188 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -22.32836 ppl= 170.937 ppl1= 302.6418
+9 words, rank1= 0 rank5= 0.2222222222222222 rank10= 0.3333333333333333
+10 words+sents, rank1wSent= 0 rank5wSent= 0.2 rank10wSent= 0.4 qloss= 0.9610487942696396 absloss= 0.9587505355235697
+
+file -: 100 sentences, 878 words, 21 OOVs
+0 zeroprobs, logprob= -2068.935 ppl= 145.1767 ppl1= 259.5138
+878 words, rank1= 0.1378132118451025 rank5= 0.3337129840546697 rank10= 0.4669703872437357
+978 words+sents, rank1wSent= 0.1707566462167689 rank5wSent= 0.3844580777096114 rank10wSent= 0.5132924335378323 qloss= 0.9252456167110331 absloss= 0.9019822225086152
