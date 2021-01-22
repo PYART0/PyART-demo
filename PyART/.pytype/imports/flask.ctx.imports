@@ -1,0 +1,3 @@
+flask/globals /root/PyART-demo/PyART/.pytype/pyi/flask/globals.pyi
+blinker/__init__ /root/PyART-demo/PyART/.pytype/imports/default.pyi
+flask/signals /root/PyART-demo/PyART/.pytype/pyi/flask/signals.pyi

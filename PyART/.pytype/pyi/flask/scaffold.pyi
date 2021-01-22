@@ -1,0 +1,48 @@
+# (generated with --quick)
+
+import flask.helpers
+from typing import Any, Callable, Dict, List, NoReturn, Sequence, Tuple, Type
+
+HTTPException: Any
+_PackageBoundObject: Type[flask.helpers._PackageBoundObject]
+_sentinel: Any
+default_exceptions: Any
+
+class Scaffold(flask.helpers._PackageBoundObject):
+    __doc__: str
+    _register_error_handler: Callable
+    add_url_rule: Callable
+    after_request: Callable
+    after_request_funcs: Dict[nothing, nothing]
+    before_request: Callable
+    before_request_funcs: Dict[nothing, nothing]
+    context_processor: Callable
+    error_handler_spec: Dict[nothing, nothing]
+    errorhandler: Callable
+    import_name: None
+    json_decoder: None
+    json_encoder: None
+    register_error_handler: Callable
+    root_path: None
+    static_folder: Any
+    static_url_path: Any
+    teardown_request: Callable
+    teardown_request_funcs: Dict[nothing, nothing]
+    template_context_processors: Dict[None, List[Callable[[], Dict[str, Any]]]]
+    template_folder: None
+    url_default_functions: Dict[nothing, nothing]
+    url_defaults: Callable
+    url_value_preprocessor: Callable
+    url_value_preprocessors: Dict[nothing, nothing]
+    view_functions: dict
+    def __init__(self, import_name, static_folder = ..., static_url_path = ..., template_folder = ..., root_path = ...) -> None: ...
+    @staticmethod
+    def _get_exc_class_and_code(exc_class_or_code) -> Tuple[Any, Any]: ...
+    def _is_setup_finished(self) -> NoReturn: ...
+    def endpoint(self, endpoint) -> Callable[[Any], Any]: ...
+    def route(self, rule, **options) -> Callable[[Any], Any]: ...
+
+def _default_template_ctx_processor() -> Dict[str, Any]: ...
+def _endpoint_from_view_func(view_func) -> Any: ...
+def setupmethod(f) -> Callable: ...
+def update_wrapper(wrapper: Callable, wrapped: Callable, assigned: Sequence[str] = ..., updated: Sequence[str] = ...) -> Callable: ...

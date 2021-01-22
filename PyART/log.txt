@@ -1,1 +1,1 @@
-Computing dependencies
+ninja: Entering directory `/root/PyART-demo/PyART/.pytype'

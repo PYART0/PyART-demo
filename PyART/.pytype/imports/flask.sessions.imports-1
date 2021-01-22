@@ -1,0 +1,9 @@
+flask/globals /root/PyART-demo/PyART/.pytype/pyi/flask/globals.pyi
+flask/json/__init__ /root/PyART-demo/PyART/.pytype/pyi/flask/json/__init__.pyi
+flask/config /root/PyART-demo/PyART/.pytype/pyi/flask/config.pyi
+blinker/__init__ /root/PyART-demo/PyART/.pytype/imports/default.pyi
+flask/signals /root/PyART-demo/PyART/.pytype/pyi/flask/signals.pyi
+flask/ctx /root/PyART-demo/PyART/.pytype/pyi/flask/ctx.pyi
+flask/logging /root/PyART-demo/PyART/.pytype/pyi/flask/logging.pyi
+flask/json/tag /root/PyART-demo/PyART/.pytype/pyi/flask/json/tag.pyi
+werkzeug/wrappers/json /root/PyART-demo/PyART/.pytype/imports/default.pyi

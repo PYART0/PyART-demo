@@ -1359,8 +1359,8 @@ trainlen=int(len(ret_list)/10*9)
 #print(trainlen)
 train_list=ret_list[:trainlen]
 test_list=ret_list[trainlen:]
-#print(train_list)
-print(test_list)
+print(train_list)
+#print(test_list)
 
 #sys.exit()
 #proj_tokens={}

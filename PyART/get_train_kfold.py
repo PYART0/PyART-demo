@@ -1087,8 +1087,8 @@ for proj in projs:
 	root_path = filePath+proj
 	print('LOAD-PROJ:',root_path)
 
-	datakfile='traincsv-1/'+CURRENT_PROJ+'_train_data.csv'
-	labelkfile='traincsv-1/'+CURRENT_PROJ+'_train_label.csv'
+	datakfile='traincsv-1/'+CURRENT_PROJ+'_data.csv'
+	labelkfile='traincsv-1/'+CURRENT_PROJ+'_label.csv'
 	#sys.exit()
 	
 	file_list = dir_list = []

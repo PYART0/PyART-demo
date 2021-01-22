@@ -1,0 +1,15 @@
+rule infer
+  command = /usr/bin/python3 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /usr/bin/python3 -m pytype.single --imports_info $imports --module-name $module -V 3.6 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /root/PyART-demo/PyART/.pytype/pyi/flask/globals.pyi: infer /root/PyART-demo/PyART/testdata/flask/globals.py
+  imports = /root/PyART-demo/PyART/.pytype/imports/flask.globals.imports
+  module = flask.globals
+build /root/PyART-demo/PyART/.pytype/pyi/flask/signals.pyi: infer /root/PyART-demo/PyART/testdata/flask/signals.py
+  imports = /root/PyART-demo/PyART/.pytype/imports/flask.signals.imports
+  module = flask.signals
+build /root/PyART-demo/PyART/.pytype/pyi/flask/tmp.pyi: check /root/PyART-demo/PyART/testdata/flask/tmp.py | /root/PyART-demo/PyART/.pytype/pyi/flask/globals.pyi /root/PyART-demo/PyART/.pytype/pyi/flask/signals.pyi
+  imports = /root/PyART-demo/PyART/.pytype/imports/flask.tmp.imports
+  module = flask.tmp
