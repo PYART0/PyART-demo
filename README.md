@@ -5,8 +5,8 @@ This is the instruction for the paper Python API Recommendation in Real-Time for
 
 ## Description
 
-PyART is a real-time API recommendation tool for Python, it includes two main functions:
-* data-flow analysis for (incomplete) Python code context,
+PyART is a real-time API recommendation tool for Python, which includes two main functions:
+* data-flow analysis for (incomplete or complete) Python code context,
 * real-time API recommendation.
 
 
@@ -151,7 +151,7 @@ How to reproduce Task1 for other projects:
 Task2 is stored in `PyART-demo/PyART` dictionary, and includes two kinds of evaluation: intra-project recommendation (Table V) and across-project recommendation (Table VI ). Each evaluation includes two process: training and testing.
 
 
-To run training process of intra-project recommendation in Task2, use the following command:
+**To run training process of intra-project recommendation in Task2, use the following command:**
 
 `cd PyART-demo/PyART`
 
@@ -163,7 +163,7 @@ The excerpts of the console output of PyART for the training of `flask` project
 
 ![FIG3](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG3.png)
 
-in which the first line shows the current file, the second line shows a line of code which contains the recommendation point, the third line represents the information of the recommendtion point in the form of `[file name]/[line number]#[caller]:[inferred type]#expected API`.
+in which the first line shows the current file, the second line shows a line of code which contains the recommendation point, the third line represents the information of the recommendtion point in the form of `[file name]#[line number]#[caller]:[inferred type]#expected API`.
 
 Then use the following command to generate RF model:
 
@@ -179,7 +179,8 @@ To reproduce training for your own project:
 
 Store your project in `testdata/`, change the `CURRENT_PROJ` in `aget_train_kfold.py` in line 1329, and change the `proj_name` variable in `generateclf.py` in line 6.
 
-To run testing process of intra-project recommendation in Task2, use the following command:
+
+**To run testing process of intra-project recommendation in Task2, use the following command:**
 
 `python3 aget_test_result.py`
 
@@ -189,28 +190,15 @@ The excerpts of the console output of PyART for testing are like the following:
 
 ![IMAGE](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG55.png)
 
-in which the first line shows the line of code which contains recommendation point, the second line represents the information of the recommendtion point in the form of `[file name]/[line number]#[caller]:[inferred type]#expected API`, the 'Recommended List' shows the Top-10 recommendaiton results of PyART, the 'Ranks:[2,1]' shows all the ranks that the expected API is at in the list (without OOV), the 'Ranks:[100,2,1]' shows all the ranks that the expected API is at in the list (including OOV), the top-k and mrr give accuraies.
+in which the first line shows the line of code which contains recommendation point, the second line represents the information of the recommendtion point in the form of `[file name]#[line number]#[caller]:[inferred type]#expected API`, the 'Recommend List' shows the Top-10 recommendaiton results of PyART, the 'Ranks:[2,1]' shows all the ranks that the expected API is at in the list (without OOV), the 'Ranks:[100,2,1]' shows all the ranks that the expected API is at in the list (including OOV), the top-k and mrr give accuraies.
 
 
 To reproduce testing for your own project:
 
 Store your project in `testdata/`, change the `CURRENT_PROJ` in `aget_test_result.py` in line 1463.
 
-Other information in PyART:
 
-The testJson/ dictionary stores *.json files that collect def information of the target project. Of course, the json file can be obtained directly by Regular Expression Extraction. In our demo, we extract it with understand tool. If you want to use understand, you should download understand for linux and use the following commands:
-
-vim ~/.bashrc
-
-export PATH="$PATH:/[path]/understand/scitools/bin/linux64"
-
-export STIHOME="/[path]/understand/scitools"
-
-export LD_LIBRARY_PATH="/[path]/understand/scitools/bin/linux64"
-
-[This is not necessary if you do not use understand]
-
-To run training process of across-project recommendation in Task2, use the following command:
+**To run training process of across-project recommendation in Task2, use the following command:**
 
 `python3 get_train_kfold.py`
 
@@ -221,7 +209,7 @@ Then use the following command to generate RF model:
 
 The model is stored as total.pkl in traincsv-1/ dictionary.
 
-To run testing process of across-project recommendation in Task2, use the following command:
+**To run testing process of across-project recommendation in Task2, use the following command:**
 
 `python3 bget_test_result.py`
 
@@ -234,3 +222,17 @@ Store your project in `testdata/`, change the `CURRENT_PROJ` in `bget_test_resul
 The excerpts of the console output of PyART for across-project recommendation is similar to intra-project reocmmendation.
 
 ![FIG6](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG6.png)
+
+**Other information in PyART:**
+
+The testJson/ dictionary stores *.json files that collect def information of the target project. Of course, the json file can be obtained directly by Regular Expression Extraction. In our demo, we extract it with understand tool. If you want to use understand, you should download understand for linux and use the following commands:
+
+vim ~/.bashrc
+
+export PATH="$PATH:/[path]/understand/scitools/bin/linux64"
+
+export STIHOME="/[path]/understand/scitools"
+
+export LD_LIBRARY_PATH="/[path]/understand/scitools/bin/linux64"
+
+[This is not necessary if you do not use understand]
