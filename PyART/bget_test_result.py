@@ -899,7 +899,7 @@ def get_conum_scores(aps,naming_context,file):
 	
 	
 def get_results(arr):
-	print(arr)
+	print('Ranks :'+str(arr))
 	mrr=0.0
 	top1=0
 	top2=0
@@ -1316,6 +1316,10 @@ def get_rec_point(file):
 		end = time.time()
 		ts=end - start
 		#times.append(ts)
+		
+		print('Recommend List')
+		for i in range(0,10):
+			print(str(i+1)+' : '+cans[i][0])
 
 		rank=21
 		for k in range(0,len(cans)):
