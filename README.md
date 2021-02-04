@@ -187,7 +187,7 @@ The recommendation results are printed in real time, you can use `python3 aget_t
 
 The excerpts of the console output of PyART for testing are like the following:
 
-
+![IMAGE](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG55.png)
 
 in which the first line shows the line of code which contains recommendation point, the second line represents the information of the recommendtion point in the form of `[file name]/[line number]#[caller]:[inferred type]#expected API`, the 'Recommended List' shows the Top-10 recommendaiton results of PyART, the 'Ranks:[2,1]' shows all the ranks that the expected API is at in the list (without OOV), the 'Ranks:[100,2,1]' shows all the ranks that the expected API is at in the list (including OOV), the top-k and mrr give accuraies.
 
