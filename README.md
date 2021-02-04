@@ -121,7 +121,7 @@ and results/PROJ/all-constraints.txt.
  
 The excerpts of the console output of Pysonar2 for the `cornice` project are as follows:
 
-[FIG1]
+![FIG1](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG1.png)
 
 
 To run PyART for Task 1, use the following command:
@@ -136,7 +136,7 @@ The input is stored in data/ and output is stored in results/PROJ.txt
 
 The excerpts of the console output of PyART for the `cornice` project are as follows:
 
-[FIG2]
+![FIG2](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG2.png)
 
 Since the ground truth of Task1 is obtained manually, the manual results is stored in ManaulCheckResults.xlsx.
 
@@ -161,7 +161,7 @@ The result of the command, which is set of feature vectors and labels, is output
 
 The excerpts of the console output of PyART for the training of `flask` project are like the following:
 
-[FIG3]
+![FIG3](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG3.png)
 
 in which the first line shows the current file, the second line shows a line of code which contains the recommendation point, the third line represents the information of the recommendtion point in the form of `[file name]/[line number]#[caller]:[inferred type]#expected API`.
 
@@ -173,7 +173,7 @@ The model is stored as *.pkl in traincsv/ dictionary.
 
 The excerpts of the console output of PyART for generating model are as follows:
 
-[FIG4]
+![FIG4](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG4.png)
 
 To reproduce training for your own project:
 
@@ -187,7 +187,7 @@ The recommendation results are printed in real time, you can use `python3 aget_t
 
 The excerpts of the console output of PyART for testing are like the following:
 
-[FIG5]
+![FIG5](https://github.com/PYART0/PyART-demo/blob/main/Figures/FIG5.png)
 
 in which the first line shows the line of code which contains recommendation point, the second line represents the information of the recommendtion point in the form of `[file name]/[line number]#[caller]:[inferred type]#expected API`, the 'Recommended List' shows the Top-10 recommendaiton results of PyART, the 'Ranks:[2,1]' shows all the ranks that the expected API is at in the list (without OOV), the 'Ranks:[100,2,1]' shows all the ranks that the expected API is at in the list (including OOV), the top-k and mrr give accuraies.
 
