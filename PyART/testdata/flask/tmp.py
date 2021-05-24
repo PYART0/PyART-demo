@@ -1,212 +1,152 @@
-import io
-import mimetypes
-import os
-import pkgutil
-import posixpath
-import socket
-import sys
-import unicodedata
-from functools import update_wrapper
-from threading import RLock
-from time import time
-from zlib import adler32
+from contextlib import contextmanager
 
-from jinja2 import FileSystemLoader
-from werkzeug.datastructures import Headers
-from werkzeug.exceptions import BadRequest
-from werkzeug.exceptions import NotFound
-from werkzeug.exceptions import RequestedRangeNotSatisfiable
-from werkzeug.routing import BuildError
-from werkzeug.urls import url_quote
-from werkzeug.wsgi import wrap_file
+import werkzeug.test
+from click.testing import CliRunner
+from werkzeug.test import Client
+from werkzeug.urls import url_parse
 
-from .globals import _app_ctx_stack
-from .globals import _request_ctx_stack
-from .globals import current_app
-from .globals import request
-from .globals import session
-from .signals import message_flashed
-
-_missing = object()
+from . import _request_ctx_stack
+from .cli import ScriptInfo
+from .json import dumps as json_dumps
 
 
-_os_alt_seps = list(
-    sep for sep in [os.path.sep, os.path.altsep] if sep not in (None, "/")
-)
+class EnvironBuilder(werkzeug.test.EnvironBuilder):
 
+    def __init__(
+        self,
+        app,
+        path="/",
+        base_url=None,
+        subdomain=None,
+        url_scheme=None,
+        *args,
+        **kwargs,
+    ):
+        assert not (base_url or subdomain or url_scheme) or (
+            base_url is not None
+        ) != bool(
+            subdomain or url_scheme
+        ), 'Cannot pass "subdomain" or "url_scheme" with "base_url".'
 
-def get_env():
-    return os.environ.get("FLASK_ENV") or "production"
+        if base_url is None:
+            http_host = app.config.get("SERVER_NAME") or "localhost"
+            app_root = app.config["APPLICATION_ROOT"]
 
+            if subdomain:
+                http_host = f"{subdomain}.{http_host}"
 
-def get_debug_flag():
-    val = os.environ.get("FLASK_DEBUG")
+            if url_scheme is None:
+                url_scheme = app.config["PREFERRED_URL_SCHEME"]
 
-    if not val:
-        return get_env() == "development"
-
-    return val.lower() not in ("0", "false", "no")
-
-
-def get_load_dotenv(default=True):
-    val = os.environ.get("FLASK_SKIP_DOTENV")
-
-    if not val:
-        return default
-
-    return val.lower() in ("0", "false", "no")
-
-
-def stream_with_context(generator_or_function):
-    try:
-        gen = iter(generator_or_function)
-    except TypeError:
-
-        def decorator(*args, **kwargs):
-            gen = generator_or_function(*args, **kwargs)
-            return stream_with_context(gen)
-
-        return update_wrapper(decorator, generator_or_function)
-
-    def generator():
-        ctx = _request_ctx_stack.top
-        if ctx is None:
-            raise RuntimeError(
-                "Attempted to stream with context but "
-                "there was no context in the first place to keep around."
+            url = url_parse(path)
+            base_url = (
+                f"{url.scheme or url_scheme}://{url.netloc or http_host}"
+                f"/{app_root.lstrip('/')}"
             )
-        with ctx:
-            yield None
+            path = url.path
+
+            if url.query:
+                sep = b"?" if isinstance(url.query, bytes) else "?"
+                path += sep + url.query
+
+        self.app = app
+        super().__init__(path, base_url, *args, **kwargs)
+
+    def json_dumps(self, obj, **kwargs):
+        kwargs.setdefault("app", self.app)
+        return json_dumps(obj, **kwargs)
+
+
+class FlaskClient(Client):
+
+    preserve_context = False
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.environ_base = {
+            "REMOTE_ADDR": "127.0.0.1",
+            "HTTP_USER_AGENT": f"werkzeug/{werkzeug.__version__}",
+        }
+
+    @contextmanager
+    def session_transaction(self, *args, **kwargs):
+        if self.cookie_jar is None:
+            raise RuntimeError(
+                "Session transactions only make sense with cookies enabled."
+            )
+        app = self.application
+        environ_overrides = kwargs.setdefault("environ_overrides", {})
+        self.cookie_jar.inject_wsgi(environ_overrides)
+        outer_reqctx = _request_ctx_stack.top
+        with app.test_request_context(*args, **kwargs) as c:
+            session_interface = app.session_interface
+            sess = session_interface.open_session(app, c.request)
+            if sess is None:
+                raise RuntimeError(
+                    "Session backend did not open a session. Check the configuration"
+                )
+
+            _request_ctx_stack.push(outer_reqctx)
+            try:
+                yield sess
+            finally:
+                _request_ctx_stack.pop()
+
+            resp = app.response_class()
+            if not session_interface.is_null_session(sess):
+                session_interface.save_session(app, sess, resp)
+            headers = resp.get_wsgi_headers(c.request.environ)
+            self.cookie_jar.extract_wsgi(c.request.environ, headers)
+
+    def open(self, *args, **kwargs):
+        as_tuple = kwargs.pop("as_tuple", False)
+        buffered = kwargs.pop("buffered", False)
+        follow_redirects = kwargs.pop("follow_redirects", False)
+
+        if (
+            not kwargs
+            and len(args) == 1
+            and isinstance(args[0], (werkzeug.test.EnvironBuilder, dict))
+        ):
+            environ = self.environ_base.copy()
+
+            if isinstance(args[0], werkzeug.test.EnvironBuilder):
+                environ.update(args[0].get_environ())
+            else:
+                environ.update(args[0])
+
+            environ["flask._preserve_context"] = self.preserve_context
+        else:
+            kwargs.setdefault("environ_overrides", {})[
+                "flask._preserve_context"
+            ] = self.preserve_context
+            kwargs.setdefault("environ_base", self.environ_base)
+            builder = EnvironBuilder(self.application, *args, **kwargs)
 
             try:
-                yield from gen
+                environ = builder.get_environ()
             finally:
-                if hasattr(gen, "close"):
-                    gen.close()
+                builder.close()
 
-    wrapped_g = generator()
-    next(wrapped_g)
-    return wrapped_g
-
-
-def make_response(*args):
-    if not args:
-        return current_app.response_class()
-    if len(args) == 1:
-        args = args[0]
-    return current_app.make_response(args)
-
-
-def url_for(endpoint, **values):
-    appctx = _app_ctx_stack.top
-    reqctx = _request_ctx_stack.top
-
-    if appctx is None:
-        raise RuntimeError(
-            "Attempted to generate a URL without the application context being"
-            " pushed. This has to be executed when application context is"
-            " available."
+        return Client.open(
+            self,
+            environ,
+            as_tuple=as_tuple,
+            buffered=buffered,
+            follow_redirects=follow_redirects,
         )
 
-    if reqctx is not None:
-        url_adapter = reqctx.url_adapter
-        blueprint_name = request.blueprint
+    def __enter__(self):
+        if self.preserve_context:
+            raise RuntimeError("Cannot nest client invocations")
+        self.preserve_context = True
+        return self
 
-        if endpoint[:1] == ".":
-            if blueprint_name is not None:
-                endpoint = f"{blueprint_name}{endpoint}"
-            else:
-                endpoint = endpoint[1:]
+    def __exit__(self, exc_type, exc_value, tb):
+        self.preserve_context = False
 
-        external = values.pop("_external", False)
+        while True:
+            top = _request_ctx_stack.top
 
-    else:
-        url_adapter = appctx.url_adapter
-
-        if url_adapter is None:
-            raise RuntimeError(
-                "Application was not able to create a URL adapter for request"
-                " independent URL generation. You might be able to fix this by"
-                " setting the SERVER_NAME config variable."
-            )
-
-        external = values.pop("_external", True)
-
-    anchor = values.pop("_anchor", None)
-    method = values.pop("_method", None)
-    scheme = values.pop("_scheme", None)
-    appctx.app.inject_url_defaults(endpoint, values)
-
-    old_scheme = None
-    if scheme is not None:
-        if not external:
-            raise ValueError("When specifying _scheme, _external must be True")
-        old_scheme = url_adapter.url_scheme
-        url_adapter.url_scheme = scheme
-
-    try:
-        try:
-            rv = url_adapter.build(
-                endpoint, values, method=method, force_external=external
-            )
-        finally:
-            if old_scheme is not None:
-                url_adapter.url_scheme = old_scheme
-    except BuildError as error:
-        values["_external"] = external
-        values["_anchor"] = anchor
-        values["_method"] = method
-        values["_scheme"] = scheme
-        return appctx.app.handle_url_build_error(error, endpoint, values)
-
-    if anchor is not None:
-        rv += f"#{url_quote(anchor)}"
-    return rv
-
-
-def get_template_attribute(template_name, attribute):
-    return getattr(current_app.jinja_env.get_template(template_name).module, attribute)
-
-
-def flash(message, category="message"):
-    flashes = session.get("_flashes", [])
-    flashes.append((category, message))
-    session["_flashes"] = flashes
-    message_flashed.send(
-        current_app._get_current_object(), message=message, category=category
-    )
-
-
-def get_flashed_messages(with_categories=False, category_filter=()):
-    flashes = _request_ctx_stack.top.flashes
-    if flashes is None:
-        _request_ctx_stack.top.flashes = flashes = (
-            session.pop("_flashes") if "_flashes" in session else []
-        )
-    if category_filter:
-        flashes = list(filter(lambda f: f[0] in category_filter, flashes))
-    if not with_categories:
-        return [x[1] for x in flashes]
-    return flashes
-
-
-def send_file(
-    filename_or_fp,
-    mimetype=None,
-    as_attachment=False,
-    attachment_filename=None,
-    add_etags=True,
-    cache_timeout=None,
-    conditional=False,
-    last_modified=None,
-):
-    mtime = None
-    fsize = None
-
-    if hasattr(filename_or_fp, "__fspath__"):
-        filename_or_fp = os.fspath(filename_or_fp)
-
-    if isinstance(filename_or_fp, str):
-        filename = filename_or_fp
-        if not os.path.isabs(filename):
-            reveal_type(os.path)
+            if top is not None and top.preserved:
+                reveal_type(top)

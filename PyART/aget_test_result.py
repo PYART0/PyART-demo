@@ -1093,6 +1093,8 @@ def get_rec_point(file):
 		#if '.' in caller:
 			#ft='Any'
 		#else:
+		
+		
 		ft=get_type(finalc,file)
 		ft=ft.strip()
 	
@@ -1102,6 +1104,7 @@ def get_rec_point(file):
 
 		
 		aps=[]
+
 
 		if ft=='None' or ft=='Any':
 			if caller=='self':
@@ -1189,7 +1192,7 @@ def get_rec_point(file):
 			#ss=ss+ap+','
 		#ss=ss[:-1]+'\n'
 		#s=caller+':'+ft+'#'+callee+'\n'	
-
+		s1=time.time()
 		#print('[Process[2] : Constructing dataflow hints.]')
 		current_dataflow=get_dataflow.get_current_dataflow2(current_context,caller)
 		#print(maxflow)
@@ -1215,6 +1218,8 @@ def get_rec_point(file):
 		naming_context=precode
 		line_scores=get_line_scores(aps,naming_line,naming_context,file)
 
+		e1=time.time()
+		print(e1-s1)
 
 
 		
@@ -1269,7 +1274,7 @@ def get_rec_point(file):
 		#print(apis)
 		#print(len(apis))
 		#print(test_data)
-		clf=joblib.load('traincsv/'+CURRENT_PROJ+'.pkl')
+		clf=joblib.load('traincsv/'+CURRENT_PROJ+'1.pkl')
 		result=clf.predict_proba(test_data)
 
 		candidates={}
@@ -1283,10 +1288,13 @@ def get_rec_point(file):
 
 		end = time.time()
 		ts=end - start
-		#times.append(ts)
+		print(ts)
 
 		print('Recommend List')
-		for i in range(0,10):
+		lenthk=len(cans)
+		if lenthk > 10:
+			lenthk = 10
+		for i in range(0,lenthk):
 			print(str(i+1)+' : '+cans[i][0])
 
 		rank=21

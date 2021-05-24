@@ -1,1 +1,11 @@
-ninja: Entering directory `/root/PyART-demo/PyART/.pytype'
+ninja: Entering directory `/root/new/PyART-demo/PyART/.pytype'
+[1/1] check flask.tmp
+FAILED: /root/new/PyART-demo/PyART/.pytype/pyi/flask/tmp.pyi 
+/usr/bin/python3 -m pytype.single --imports_info /root/new/PyART-demo/PyART/.pytype/imports/flask.tmp.imports --module-name flask.tmp -V 3.6 -o /root/new/PyART-demo/PyART/.pytype/pyi/flask/tmp.pyi --analyze-annotated --nofail --quick /root/new/PyART-demo/PyART/testdata/flask/tmp.py
+File "/root/new/PyART-demo/PyART/testdata/flask/tmp.py", line 68, in __init__: No attribute '__version__' on module 'werkzeug' [module-attr]
+File "/root/new/PyART-demo/PyART/testdata/flask/tmp.py", line 152, in __exit__: Any [reveal-type]
+
+For more details, see https://google.github.io/pytype/errors.html.
+ninja: build stopped: subcommand failed.
+Computing dependencies
+Analyzing 1 sources with 18 local dependencies
